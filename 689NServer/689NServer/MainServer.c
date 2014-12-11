@@ -5,6 +5,7 @@
 #include <time.h>
 
 #define MAXPENDING 5    /* Maximum outstanding connection requests */
+#define RCVBUFFERSIZE 256
 
 void DieWithError(char *errorMessage);
 void InputLoggerFile(char *message);
@@ -14,6 +15,9 @@ void SendBackTimeGapFail(int clntSocket, char const *str);
 int ReqErrorCheck(int clntSocket);
 char *GetInforfromClnt(int clntSocket);
 void HandleTCPClient(int clntSocket);
+char **SplitRecvMessage(char *recvMessage);
+int Switching(char ** para_arr, char *dataFileName);
+int IsValid(char **para_arr);
 
 
 
@@ -34,9 +38,14 @@ void main(int argc, char *argv[]) {
 	char *clntIp;                      /* Cline Ip Addr*/
 	char *message;
 	char *recInfor;
+	char **recvParameter; 
+
 
 	time_t lastTime = 0;
 	time_t curTime;
+
+	char Buffer[RCVBUFFERSIZE];        /* Buffer for echo string */
+	int recvMsgSize;                    /* Size of received message */
 
 	InputLoggerFile("The Server Started. Begin input check...");
 
@@ -63,12 +72,6 @@ void main(int argc, char *argv[]) {
 	}
 
 	InputLoggerFile("InputCheck successed.Start building socket.");
-
-//--------------------building binary search tree----------------------------------
-
-
-
-
 //--------------------------set up socket-------------------------------------------
 	if (WSAStartup(MAKEWORD(2, 0), &wsaData) != 0) /* Load Winsock 2.0 DLL */
 	{
@@ -103,12 +106,15 @@ void main(int argc, char *argv[]) {
 
 	for (;;) /* Run forever */
 	{
+
 		/* Set the size of the in-out parameter */
 		clntLen = sizeof(ClntAddr);
 
 		/* Wait for a client to connect */
 		if ((clntSock = accept(servSock, (struct sockaddr *) &ClntAddr, &clntLen)) < 0) {
 			InputLoggerFile("Building connection failed. (accpet()) failed");
+			closesocket(clntSock);
+			continue;
 		} 
 
 
@@ -124,11 +130,32 @@ void main(int argc, char *argv[]) {
 		curTime = time(NULL);
 		if (lastTime == 0 || (curTime - lastTime) >= timeGap) {
 			InputLoggerFile("Time Gap check passed.");
-//----------------------Decompose Infor-----------------------------------------------------
-			HandleTCPClient(clntSock);
-			//printf("%s\n", recInfor);
 
-			/*  do somthing */
+//----------------------Decompose Infor-----------------------------------------------------
+			if ((recvMsgSize = recv(clntSock, Buffer, RCVBUFFERSIZE, 0)) < 0) {
+				InputLoggerFile("Recieving message failed. ");
+				closesocket(clntSock);
+				continue;
+			}
+			Buffer[RCVBUFFERSIZE] = '\0';
+			recInfor = malloc(RCVBUFFERSIZE + 1);
+			recInfor[RCVBUFFERSIZE] = '\0';
+			strcpy(recInfor, Buffer);
+			recvParameter = SplitRecvMessage(recInfor);
+//-------------------------Error Check & Switching-----------------------------------------------
+			if (IsValid(recvParameter) == 0) {
+				InputLoggerFile("Error Check failed.");
+				/* send error infor back*/
+				closesocket(clntSock);
+				continue;
+			}
+			else {
+				if (Switching(recvParameter, dataFileName) == 0) {
+					InputLoggerFile("Switching failed.");
+					closesocket(clntSock);
+					continue;
+				}
+			}
 			lastTime = curTime;
 		}
 		else {

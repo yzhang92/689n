@@ -42,5 +42,11 @@
     <ClCompile Include="HandleTCPClient.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SplitRecvMessage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switching.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
