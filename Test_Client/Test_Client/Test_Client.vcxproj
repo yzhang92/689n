@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="DieWithError.cpp" />
+    <ClCompile Include="gethostbyname.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9AB83B21-FD00-4B57-84AB-C2B014530C29}</ProjectGuid>
