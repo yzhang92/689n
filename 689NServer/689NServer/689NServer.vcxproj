@@ -84,8 +84,10 @@
     <ClCompile Include="InputLoggerFile.c" />
     <ClCompile Include="MainServer.c" />
     <ClCompile Include="SendBackTimeGapFail.c" />
+    <ClCompile Include="SplitRecvMessage.c" />
     <ClCompile Include="StringAppend.c" />
     <ClCompile Include="StrToInt.c" />
+    <ClCompile Include="Switching.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
