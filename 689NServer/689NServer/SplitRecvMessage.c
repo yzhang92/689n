@@ -7,7 +7,6 @@ char **SplitRecvMessage(char *recvMessage) {
 	char **str_arr;
 
 	int str_len = strlen(recvMessage);
-	printf("%d\n", str_len);
 
 	int count = 0;
 	int i = 0;
@@ -49,7 +48,6 @@ char **SplitRecvMessage(char *recvMessage) {
 			i++;
 			k++;
 		}
-		printf("%s\n", str_arr[j]);
 		k = 0;
 		i += 2;
 		j++;

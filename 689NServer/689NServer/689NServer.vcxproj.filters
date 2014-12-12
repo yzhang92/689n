@@ -27,9 +27,6 @@
     <ClCompile Include="ErrorCheckForInput.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SendBackTimeGapFail.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="StringAppend.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -40,6 +37,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Switching.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBackServerRespond.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseClnSock.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

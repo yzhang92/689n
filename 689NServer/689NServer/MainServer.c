@@ -10,12 +10,13 @@
 void InputLoggerFile(char *message);
 int StrToInt(char *str);
 int ErrorCheckForInput(int port, char *filename, int timeGap);
-void SendBackTimeGapFail(int clntSocket, char const *str);
+void SendBackServerRespond(int clntSocket, char const *str);
 int ReqErrorCheck(int clntSocket);
 char *GetInforfromClnt(int clntSocket);
 void HandleTCPClient(int clntSocket);
 char **SplitRecvMessage(char *recvMessage);
-int Switching(char ** para_arr, char *dataFileName);
+int Switching(char **, char *, int);
+void CloseClnSock(int);
 
 
 
@@ -105,23 +106,23 @@ void main(int argc, char *argv[]) {
 	for (;;) /* Run forever */
 	{
 
+
 		/* Set the size of the in-out parameter */
 		clntLen = sizeof(ClntAddr);
 
 		/* Wait for a client to connect */
 		if ((clntSock = accept(servSock, (struct sockaddr *) &ClntAddr, &clntLen)) < 0) {
 			InputLoggerFile("Building connection failed. (accpet()) failed");
-			closesocket(clntSock);
+			CloseClnSock(clntSock);
 			continue;
 		} 
-
 
 //----------------------A request Builded-------------------------------------------------
 		/* form a log infor*/
 		
 		message = StringAppend("Cline: ", inet_ntoa(ClntAddr.sin_addr));
 		message = StringAppend(message," attampts to connect server.");
-
+		InputLoggerFile("------------------------------------------------");
 		InputLoggerFile(message);
 
 //--------------------Time Gap Check--------------------------------------------------------
@@ -132,33 +133,36 @@ void main(int argc, char *argv[]) {
 //----------------------Decompose Infor-----------------------------------------------------
 			if ((recvMsgSize = recv(clntSock, Buffer, RCVBUFFERSIZE, 0)) < 0) {
 				InputLoggerFile("Recieving message failed. ");
-				closesocket(clntSock);
-				continue;
-			}
-			Buffer[RCVBUFFERSIZE] = '\0';
-			recInfor = malloc(RCVBUFFERSIZE + 1);
-			recInfor[RCVBUFFERSIZE] = '\0';
-			strcpy(recInfor, Buffer);
-			recvParameter = SplitRecvMessage(recInfor);
-//-------------------------Switching-----------------------------------------------
-			/*if (Switching(recvParameter, dataFileName) == 0) {
-				InputLoggerFile("Switching failed.");
-				closesocket(clntSock);
+				CloseClnSock(clntSock);
 				continue;
 			}
 			
+			Buffer[recvMsgSize] = '\0';
+			recInfor = malloc(recvMsgSize + 1);
+			recInfor[recvMsgSize] = '\0';
+			strcpy(recInfor, Buffer);
+			recvParameter = SplitRecvMessage(recInfor);
+//-------------------------Switching-----------------------------------------------
+			if (Switching(recvParameter, dataFileName, clntSock) == 0) {
+				InputLoggerFile("Switching failed.");
+				CloseClnSock(clntSock);
+				continue;
+			}
+			CloseClnSock(clntSock);
 			lastTime = curTime;
-			*/
 		}
 		else {
-			int diff = curTime - lastTime;
-			InputLoggerFile("Time Gap check failed. Send fail response to the client side...");
+			int diff = timeGap - (curTime - lastTime);
+			InputLoggerFile("Time Gap check failed. Send fail response to the client side.");
 			char *message;
 			char str2[3];
 			sprintf(str2, "%d", diff);
 			message = StringAppend("Please wait another ", str2);
 			message = StringAppend(message, " seconds before another submission.");
-			SendBackTimeGapFail(clntSock, message);
+			SendBackServerRespond(clntSock, message);
+			message = StringAppend("Send Error Info to The Client. The content is: ", message);
+			InputLoggerFile(message);
+			CloseClnSock(clntSock);
 		}
 	}
 	

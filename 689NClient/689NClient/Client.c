@@ -58,7 +58,7 @@ void main(int argc, char *argv[])
 
 	}
 	/* ip formate check*/
-	if (atoi(requestNum) == 2) {
+	if ((atoi(requestNum) == 2)&&(argc > 5)) {
 		numberOfIp = argc - 5;
 		ip = malloc(numberOfIp * sizeof(char *));
 		for (int i = 0, j = 5; i < numberOfIp; i++, j ++) {
@@ -69,8 +69,8 @@ void main(int argc, char *argv[])
 			printf("Error: your ip format is invalid. Please restart the program.");
 			exit(1);
 		}
-		
 	}
+	
 	/* compose the sending message */
 	if ((atoi(requestNum) == 4) || (atoi(requestNum) == 5)) {
 		lengthOfCom = strlen(requestNum) + 3;
@@ -79,7 +79,7 @@ void main(int argc, char *argv[])
 		strcpy(command, requestNum);
 		strcat(command, "$$$");
 	}
-	else if ((atoi(requestNum) == 1) || (atoi(requestNum) == 3) || (atoi(requestNum) == 6)) {
+	else if (((atoi(requestNum) == 1) || (atoi(requestNum) == 3) || (atoi(requestNum) == 6)) && (argc > 4)) {
 		lengthOfCom = strlen(requestNum) + 5 + strlen(hostname);
 		command = malloc(lengthOfCom + 1);
 		command[lengthOfCom] = '\0';
@@ -88,7 +88,7 @@ void main(int argc, char *argv[])
 		strcat(command, hostname);
 		strcat(command, "$$$");
 	}
-	else if (atoi(requestNum) == 2) {
+	else if ((atoi(requestNum) == 2) && (argc > 5)){
 		lengthOfCom = strlen(requestNum) + strlen(hostname) + numberOfIp * 2 + 6;
 		for (int i = 0; i < numberOfIp; i++) {
 			lengthOfCom += strlen(ip[i]);
@@ -104,6 +104,10 @@ void main(int argc, char *argv[])
 			strcat(command, "$$");
 		}
 		strcat(command, "$");
+	}
+	else{
+		printf("Error: Not enough input.");
+		exit(1);
 	}
 	printf("%s\n", command);
 	

@@ -77,11 +77,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CloseClnSock.c" />
     <ClCompile Include="ErrorCheckForInput.c" />
     <ClCompile Include="GetInforfromClnt.c" />
     <ClCompile Include="InputLoggerFile.c" />
     <ClCompile Include="MainServer.c" />
-    <ClCompile Include="SendBackTimeGapFail.c" />
+    <ClCompile Include="SendBackServerRespond.c" />
     <ClCompile Include="SplitRecvMessage.c" />
     <ClCompile Include="StringAppend.c" />
     <ClCompile Include="StrToInt.c" />
