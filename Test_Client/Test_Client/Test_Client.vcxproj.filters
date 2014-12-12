@@ -24,5 +24,8 @@
     <ClCompile Include="gethostbyname.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isValidIpAddr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -12,6 +12,7 @@
 #define RCVBUFSIZE 256   /* Size of receive buffer */
 
 void DieWithError(char *errorMessage);  /* Error handling function */
+bool isValidIpAddr(char *ipAddr);
 
 void main(int argc, char *argv[])
 {
@@ -29,15 +30,31 @@ void main(int argc, char *argv[])
 	char *ip;
 	
 	servIP = argv[1];             /* First arg: server IP address (dotted quad) */
+	echoServPort = atoi(argv[2]);
 	requestNum = argv[3];
 	hostname = argv[4];
 	ip = argv[5];
 
-	if (argc < 3)    /* Test for correct number of arguments */
+	if (argc < 5)    /* Test for correct number of arguments */
 	{
 		fprintf(stderr, "Usage: %s <Server IP> <Request #> <Echo Word> [<Echo Port>]\n", argv[0]);
 		exit(1);
 	}
+
+	/* Check request Number */
+	if (atoi(requestNum) < 1 || atoi(requestNum) > 6)
+		printf("Request Number is unavalible");
+
+	/*Check valid IP Address*/
+	if (isValidIpAddr(ip))
+	{
+		printf("The given IP is a valid IP address\n");
+	}
+	else
+	{
+		printf("The given IP is not a valid IP address\n");
+	}
+
 
 	//struct hostent *he;
 	//struct in_addr **addr_list;
@@ -46,18 +63,47 @@ void main(int argc, char *argv[])
 	//	printf("Official name is: %s\n", he->h_name);
 	//	printf("    IP addresses: ");
 	//addr_list = (struct in_addr **)he->h_addr_list;
-	//for (i = 0; addr_list[i] != NULL; i++) {
+	//for (i = 0; addr_list[i] != NULL; i++)
+		// {	
+	//			atoi(ip[i]) = inet_ntoa(*addr_list[i]);
 	//printf("%s ", inet_ntoa(*addr_list[i]));
 	//}
 	//printf("\n");
-	if (atoi(requestNum) < 1 || atoi(requestNum) > 6)
-		printf("Request Number is unavalible");
+	/* Check the number of parameters */
+	switch (atoi(requestNum))
+	{
+	case 1:
+		if (argc!= 5)
+			printf("Invalid Number of Parameters");
+		break;
+	case 2:
+		if (argc < 6)
+			printf("Invalid Number of Parameters");
+		break;
+	case 3:
+		if (argc!= 5)
+			printf("Invalid Number of Parameters");
+		break;
+	case 4:
+		if (argc != 4)
+			printf("Invalid Number of Parameters");
+		break;
+	case 5:
+		if (argc != 4)
+			printf("Invalid Number of Parameters");
+		break;
+	case 6:
+		if (argc != 5)
+			printf("Invalid Number of Parameters");
+		break;
+	}
 
 
-	if (argc == 8)
-		echoServPort = atoi(argv[2]); /* Use given port, if any */
-	else
-		echoServPort = 6666;  /* otherwise, 7 is the well-known port for the echo service */
+
+	//if (argc == 8)
+		//echoServPort = atoi(argv[2]); /* Use given port, if any */
+	//else
+		//echoServPort = 6666;  /* otherwise, 7 is the well-known port for the echo service */
 
 	
 
@@ -87,6 +133,7 @@ void main(int argc, char *argv[])
 	strcat_s(echoString, 256, "$$");
 	strcat_s(echoString, 256, ip);
 	strcat_s(echoString, 256, "$$$");
+	strcat_s(echoString, 256, '\0');
 //	printf("%s", echoString);
 
 
@@ -96,33 +143,21 @@ void main(int argc, char *argv[])
 	
 	if (send(sock, echoString, echoStringLen, 0) != echoStringLen)
 		DieWithError("send() sent a different number of bytes than expected");
-
-//	int requestNumLen = strlen(requestNum);
-//	if (send(sock, requestNum, requestNumLen, 0) != requestNumLen)
-//		DieWithError("send() sent a different number of bytes than expected");
-
-//	int hostnamelen = strlen(hostname);
-//	if (send(sock, hostname, hostnamelen, 0) != hostnamelen)
-//		DieWithError("send() sent a different number of bytes than expected");
-
-//	int iplen = strlen(ip);
-//	if (send(sock, ip, iplen, 0) != iplen)
-//		DieWithError("send() sent a different number of bytes than expected");
 	
 
-	/* Receive the same string back from the server */
-	//	totalBytesRcvd = 0;
-	//	printf("Received: ");                /* Setup to print the echoed string */
-//	while (totalBytesRcvd < echoStringLen)
-//	{
+	/* Receive string back from the server */
+		totalBytesRcvd = 0;
+		printf("Received: ");                /* Setup to print the echoed string */
+	while (totalBytesRcvd < echoStringLen)
+	{
 		/* Receive up to the buffer size (minus 1 to leave space for
 		a null terminator) bytes from the sender */
-//		if ((bytesRcvd = recv(sock, echoBuffer, RCVBUFSIZE - 1, 0)) <= 0)
-//			DieWithError("recv() failed or connection closed prematurely");
-//		totalBytesRcvd += bytesRcvd;   /* Keep tally of total bytes */
-//		echoBuffer[bytesRcvd] = '\0';  /* Add \0 so printf knows where to stop */
-//		printf("%s", echoBuffer);            /* Print the echo buffer */
-//	}
+		if ((bytesRcvd = recv(sock, echoBuffer, RCVBUFSIZE - 1, 0)) <= 0)
+			DieWithError("recv() failed or connection closed prematurely");
+		totalBytesRcvd += bytesRcvd;   /* Keep tally of total bytes */
+		echoBuffer[bytesRcvd] = '\0';  /* Add \0 so printf knows where to stop */
+		printf("%s", echoBuffer);            /* Print the echo buffer */
+	}
 
 	printf("\n");    /* Print a final linefeed */
 
