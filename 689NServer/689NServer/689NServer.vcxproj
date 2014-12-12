@@ -77,10 +77,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Documents\GitHub\689NProject\Server\Server\DieWithErrorWS.c" />
     <ClCompile Include="ErrorCheckForInput.c" />
     <ClCompile Include="GetInforfromClnt.c" />
-    <ClCompile Include="HandleTCPClient.c" />
     <ClCompile Include="InputLoggerFile.c" />
     <ClCompile Include="MainServer.c" />
     <ClCompile Include="SendBackTimeGapFail.c" />
