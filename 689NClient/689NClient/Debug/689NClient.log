@@ -1,14 +1,16 @@
-﻿Build started 12/11/2014 11:15:42 PM.
-Project "C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\689NClient\689NClient.vcxproj" on node 2 (Build target(s)).
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Client.c
-  Client.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\Debug\689NClient.exe" /INCREMENTAL /NOLOGO wsock32.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\Debug\689NClient.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\Debug\689NClient.lib" /MACHINE:X86 Debug\Client.obj
-  Debug\DieWithError.obj
-  689NClient.vcxproj -> C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\Debug\689NClient.exe
-Done Building Project "C:\Users\Wei Wei\Documents\Visual Studio 2013\Projects\689NClient\689NClient\689NClient.vcxproj" (Build target(s)).
+﻿Build started 12/11/2014 11:40:16 PM.
+     1>Project "C:\Users\Zhang\Desktop\689n\689NClient\689NClient\689NClient.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Client.c
+         Client.c
+     1>c:\users\zhang\desktop\689n\689nclient\689nclient\client.c(41): warning C4013: 'isValidIpAddr' undefined; assuming extern returning int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zhang\Desktop\689n\689NClient\Debug\689NClient.exe" /INCREMENTAL /NOLOGO wsock32.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Zhang\Desktop\689n\689NClient\Debug\689NClient.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zhang\Desktop\689n\689NClient\Debug\689NClient.lib" /MACHINE:X86 Debug\Client.obj
+         Debug\DieWithError.obj
+     1>Client.obj : error LNK2019: unresolved external symbol _isValidIpAddr referenced in function _main
+     1>C:\Users\Zhang\Desktop\689n\689NClient\Debug\689NClient.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Zhang\Desktop\689n\689NClient\689NClient\689NClient.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.29
+Time Elapsed 00:00:00.65

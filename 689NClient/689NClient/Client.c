@@ -38,14 +38,14 @@ void main(int argc, char *argv[])
 		printf("Request Number is unavalible");
 
 	/*Check valid IP Address*/
-	//if (isValidIpAddr(ip))
-	//{
+	if (isValidIpAddr(ip))
+	{
 		//printf("The given IP is a valid IP address\n");
-	//}
-	//else
-	//{
-		//printf("The given IP is not a valid IP address\n");
-	//}
+	}
+	else
+	{
+		printf("The given IP is not a valid IP address\n");
+	}
 
 	/* Check the number of parameters */
 	switch (atoi(requestNum))
