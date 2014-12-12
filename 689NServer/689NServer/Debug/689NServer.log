@@ -1,50 +1,9 @@
-﻿Build started 12/11/2014 12:14:26 AM.
+﻿Build started 12/11/2014 7:08:01 PM.
      1>Project "C:\Users\Zhang\Desktop\689n\689NServer\689NServer\689NServer.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\Documents\GitHub\689NProject\Server\Server\DieWithErrorWS.c ErrorCheckForInput.c GetInforfromClnt.c HandleTCPClient.c InputLoggerFile.c MainServer.c SendBackTimeGapFail.c SplitRecvMessage.c StringAppend.c StrToInt.c Switching.c
-         Switching.c
-         StrToInt.c
-         StringAppend.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\stringappend.c(10): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\stringappend.c(11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
-         SplitRecvMessage.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\splitrecvmessage.c(47): warning C4018: '<' : signed/unsigned mismatch
-         SendBackTimeGapFail.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\sendbacktimegapfail.c(12): warning C4013: 'InputLoggerFile' undefined; assuming extern returning int
-         MainServer.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(124): warning C4013: 'StringAppend' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(124): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(125): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(162): warning C4244: 'initializing' : conversion from 'time_t' to 'int', possible loss of data
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(167): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(168): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(38): warning C4101: 'clntIp' : unreferenced local variable
-         InputLoggerFile.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\inputloggerfile.c(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\inputloggerfile.c(18): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
-         HandleTCPClient.c
-         GetInforfromClnt.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\getinforfromclnt.c(21): warning C4013: 'InputLoggerFile' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\getinforfromclnt.c(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\getinforfromclnt.c(33): warning C4013: 'StringAppend' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\getinforfromclnt.c(33): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-         ErrorCheckForInput.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\errorcheckforinput.c(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
-         DieWithErrorWS.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\Documents\GitHub\689NProject\Server\Server\DieWithErrorWS.c': No such file or directory
-         Generating Code...
-     1>Done Building Project "C:\Users\Zhang\Desktop\689n\689NServer\689NServer\689NServer.vcxproj" (Build target(s)) -- FAILED.
+     1>Link:
+         689NServer.vcxproj -> C:\Users\Zhang\Desktop\689n\689NServer\Debug\689NServer.exe
+     1>Done Building Project "C:\Users\Zhang\Desktop\689n\689NServer\689NServer\689NServer.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.76
+Time Elapsed 00:00:00.06

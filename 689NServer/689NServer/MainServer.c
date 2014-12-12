@@ -7,7 +7,6 @@
 #define MAXPENDING 5    /* Maximum outstanding connection requests */
 #define RCVBUFFERSIZE 256
 
-void DieWithError(char *errorMessage);
 void InputLoggerFile(char *message);
 int StrToInt(char *str);
 int ErrorCheckForInput(int port, char *filename, int timeGap);
@@ -17,7 +16,6 @@ char *GetInforfromClnt(int clntSocket);
 void HandleTCPClient(int clntSocket);
 char **SplitRecvMessage(char *recvMessage);
 int Switching(char ** para_arr, char *dataFileName);
-int IsValid(char **para_arr);
 
 
 
@@ -142,21 +140,15 @@ void main(int argc, char *argv[]) {
 			recInfor[RCVBUFFERSIZE] = '\0';
 			strcpy(recInfor, Buffer);
 			recvParameter = SplitRecvMessage(recInfor);
-//-------------------------Error Check & Switching-----------------------------------------------
-			if (IsValid(recvParameter) == 0) {
-				InputLoggerFile("Error Check failed.");
-				/* send error infor back*/
+//-------------------------Switching-----------------------------------------------
+			/*if (Switching(recvParameter, dataFileName) == 0) {
+				InputLoggerFile("Switching failed.");
 				closesocket(clntSock);
 				continue;
 			}
-			else {
-				if (Switching(recvParameter, dataFileName) == 0) {
-					InputLoggerFile("Switching failed.");
-					closesocket(clntSock);
-					continue;
-				}
-			}
+			
 			lastTime = curTime;
+			*/
 		}
 		else {
 			int diff = curTime - lastTime;

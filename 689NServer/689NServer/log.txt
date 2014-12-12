@@ -208,3 +208,13 @@
 
 
 
+12/11/2014 19:7  The Server Started. Begin input check...
+12/11/2014 19:7  Wrong Input Number. Server shuts down.
+
+
+
+12/11/2014 19:8  The Server Started. Begin input check...
+12/11/2014 19:8  Wrong Input Number. Server shuts down.
+
+
+
