@@ -77,16 +77,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrToStr.c" />
+    <ClCompile Include="BuildTree.c" />
     <ClCompile Include="CloseClnSock.c" />
     <ClCompile Include="ErrorCheckForInput.c" />
+    <ClCompile Include="GetAscii.c" />
     <ClCompile Include="GetInforfromClnt.c" />
+    <ClCompile Include="GetIpByName.c" />
     <ClCompile Include="InputLoggerFile.c" />
     <ClCompile Include="MainServer.c" />
+    <ClCompile Include="NodeToString.c" />
     <ClCompile Include="SendBackServerRespond.c" />
     <ClCompile Include="SplitRecvMessage.c" />
     <ClCompile Include="StringAppend.c" />
+    <ClCompile Include="StrToArray.c" />
     <ClCompile Include="StrToInt.c" />
     <ClCompile Include="Switching.c" />
+    <ClCompile Include="Tree.c" />
+    <ClCompile Include="Tree2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

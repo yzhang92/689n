@@ -160,8 +160,6 @@ void main(int argc, char *argv[]) {
 			message = StringAppend("Please wait another ", str2);
 			message = StringAppend(message, " seconds before another submission.");
 			SendBackServerRespond(clntSock, message);
-			message = StringAppend("Send Error Info to The Client. The content is: ", message);
-			InputLoggerFile(message);
 			CloseClnSock(clntSock);
 		}
 	}

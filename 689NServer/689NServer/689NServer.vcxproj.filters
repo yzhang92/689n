@@ -45,5 +45,29 @@
     <ClCompile Include="CloseClnSock.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrToArray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAscii.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrToStr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetIpByName.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeToString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -5,10 +5,10 @@
 	this is where error may happened.
 */
 void SendBackServerRespond(int clntSocket,  char const *str) {
-	
+	char *message;
 	send(clntSocket, str, strlen(str) + 1, 0);
-	InputLoggerFile(str);
-
+	message = StringAppend("Sending system message to the client. The content is: ", str);
+	InputLoggerFile(message);
 	closesocket(clntSocket);
 
 }

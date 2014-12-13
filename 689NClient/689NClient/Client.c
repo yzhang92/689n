@@ -53,9 +53,11 @@ void main(int argc, char *argv[])
 	}
 
 	/* caseinsensitive transfer*/
-	if (argc > 4) {
+	if ((argc > 4) && atoi(requestNum) != 6) {
 		hostname = CaseInsensitiveTest(argv[4]);
-
+	}
+	else if ((atoi(requestNum) == 6) && (argc > 4)){
+		hostname = argv[4];
 	}
 	/* ip formate check*/
 	if ((atoi(requestNum) == 2)&&(argc > 5)) {
