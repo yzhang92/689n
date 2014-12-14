@@ -10,7 +10,7 @@
 typedef struct treeNode
 {
 	char *hostname;
-	int *reqTimes;
+	int reqTimes;
 	char **ipaddress;
 	struct treeNode *left;
 	struct treeNode *right;
@@ -137,10 +137,13 @@ void main(int argc, char *argv[]) {
 
 //----------------------A request Builded-------------------------------------------------
 		/* form a log infor*/
-		
+
 		message = StringAppend("Cline: ", inet_ntoa(ClntAddr.sin_addr));
+
 		message = StringAppend(message," attampts to connect server.");
+
 		InputLoggerFile("------------------------------------------------");
+
 		InputLoggerFile(message);
 
 //--------------------Time Gap Check--------------------------------------------------------
@@ -155,7 +158,7 @@ void main(int argc, char *argv[]) {
 				CloseClnSock(clntSock);
 				continue;
 			}
-			
+
 			Buffer[recvMsgSize] = '\0';
 			recInfor = malloc(recvMsgSize + 1);
 			recInfor[recvMsgSize] = '\0';

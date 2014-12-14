@@ -7,7 +7,7 @@
 typedef struct treeNode
 {
 	char *hostname;
-	int *reqTimes;
+	int reqTimes;
 	char **ipaddress;
 	struct treeNode *left;
 	struct treeNode *right;
@@ -25,13 +25,14 @@ char *GetIpByName(char *);
 
 
 treeNode *Switching(char ** para_arr, char *dataFileName, int clnclock, treeNode *root) {
-
 	int req_num = StrToInt(para_arr[0]);
 	int ascii;
 	treeNode *node = NULL;
 	char *sendBackInfo;
 	char **ip_arr;
+	char *ipp;
 	char *ip;
+	int len;
 	FILE *file;
 	int numbOfArr;
 
@@ -39,6 +40,7 @@ treeNode *Switching(char ** para_arr, char *dataFileName, int clnclock, treeNode
 
 	case 1:
 		node = Find(root, para_arr[1]);
+
 		if (node == NULL) {
 			InputLoggerFile("Ip address not found.Try to find it.");
 			if ((ip = GetIpByName(para_arr[1])) == NULL){
@@ -46,12 +48,19 @@ treeNode *Switching(char ** para_arr, char *dataFileName, int clnclock, treeNode
 				SendBackServerRespond(clnclock, "Ip address not found.");
 			}
 			else {
+				len = strlen(ip);
+				printf("%d\n", len);
+				ipp = malloc((len + 1) * sizeof(char));
+				ipp[len] = '\0';
+				strcpy(ipp, ip);
+				printf("%s\n", ipp);
 				InputLoggerFile("Ip address is found.");
 				node = malloc(sizeof(treeNode));
 				node->hostname = para_arr[1];
 				node->reqTimes = 1;
 				ip_arr = malloc(2 *sizeof(char *));
-				ip_arr[0] = ip;
+				ip_arr[0] = ipp;
+				printf("%s\n", ip_arr[0]);
 				ip_arr[1] = NULL;
 				node->ipaddress = ip_arr;
 				node->left = NULL;

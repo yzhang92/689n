@@ -4,7 +4,7 @@
 typedef struct treeNode
 {
 	char *hostname;
-	int *reqTimes;
+	int reqTimes;
 	char **ipaddress;
 	struct treeNode *left;
 	struct treeNode *right;
@@ -15,5 +15,6 @@ void ShutDown(treeNode *root, char *filename){
 	FILE *file = fopen(filename, "w");
 	WriteTreeIntoDatabase(root, filename);
 	fclose(file);
+	FreeTree(root);
 	InputLoggerFile("Entrys were written back to the database. Server shutted down. ");
 }

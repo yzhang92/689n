@@ -898,3 +898,118 @@
 
 
 
+12/13/2014 23:37  The Server Started. Begin input check...
+12/13/2014 23:37  Wrong Input Number. Server shuts down.
+
+
+
+12/13/2014 23:37  The Server Started. Begin input check...
+12/13/2014 23:37  Wrong Input Number. Server shuts down.
+
+
+
+12/13/2014 23:42  The Server Started. Begin input check...
+12/13/2014 23:42  Wrong Input Number. Server shuts down.
+
+
+
+12/13/2014 23:50  The Server Started. Begin input check...
+12/13/2014 23:50  Wrong Input Number. Server shuts down.
+
+
+
+12/13/2014 23:59  The Server Started. Begin input check...
+12/13/2014 23:59  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:5  The Server Started. Begin input check...
+12/14/2014 0:5  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:10  The Server Started. Begin input check...
+12/14/2014 0:10  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:12  The Server Started. Begin input check...
+12/14/2014 0:12  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:14  The Server Started. Begin input check...
+12/14/2014 0:14  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:15  The Server Started. Begin input check...
+12/14/2014 0:15  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:16  The Server Started. Begin input check...
+12/14/2014 0:16  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:18  The Server Started. Begin input check...
+12/14/2014 0:18  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:25  The Server Started. Begin input check...
+12/14/2014 0:25  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:25  The Server Started. Begin input check...
+12/14/2014 0:25  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:27  The Server Started. Begin input check...
+12/14/2014 0:27  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:32  The Server Started. Begin input check...
+12/14/2014 0:32  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:34  The Server Started. Begin input check...
+12/14/2014 0:34  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:35  The Server Started. Begin input check...
+12/14/2014 0:35  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:44  The Server Started. Begin input check...
+12/14/2014 0:44  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:45  The Server Started. Begin input check...
+12/14/2014 0:45  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:46  The Server Started. Begin input check...
+12/14/2014 0:46  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:46  The Server Started. Begin input check...
+12/14/2014 0:46  Wrong Input Number. Server shuts down.
+
+
+
+12/14/2014 0:50  The Server Started. Begin input check...
+12/14/2014 0:50  Wrong Input Number. Server shuts down.
+
+
+

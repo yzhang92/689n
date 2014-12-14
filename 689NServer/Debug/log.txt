@@ -1777,3 +1777,836 @@ www.hupu.com 0 192.168.1.4
 12/13/2014 19:52  Database is empty. No record found.
 12/13/2014 19:52  Sending system message to the client. The content is: Error: Database is empty. No record returned.
 12/13/2014 19:52  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:30  The Server Started. Begin input check...
+12/13/2014 23:30  InputCheck failed. Server shuts down.
+
+
+
+12/13/2014 23:31  The Server Started. Begin input check...
+12/13/2014 23:31  InputCheck failed. Server shuts down.
+
+
+
+12/13/2014 23:31  The Server Started. Begin input check...
+12/13/2014 23:31  InputCheck failed. Server shuts down.
+
+
+
+12/13/2014 23:31  The Server Started. Begin input check...
+12/13/2014 23:31  InputCheck failed. Server shuts down.
+
+
+
+12/13/2014 23:31  The Server Started. Begin input check...
+12/13/2014 23:31  InputCheck successed.Start building socket.
+12/13/2014 23:31  Tree is built.
+12/13/2014 23:31  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:32  ------------------------------------------------
+12/13/2014 23:32  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:32  Time Gap check passed.
+12/13/2014 23:32  Database is empty. No record found.
+12/13/2014 23:32  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 23:32  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:33  ------------------------------------------------
+12/13/2014 23:33  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:33  Time Gap check passed.
+12/13/2014 23:33  Ip address not found.Try to find it.
+12/13/2014 23:33  Ip address is found.
+12/13/2014 23:33  Sending system message to the client. The content is: 173.194.68.104
+12/13/2014 23:33  Adding new record into database...
+12/13/2014 23:33  Display the new try
+12/13/2014 23:33  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:33  ------------------------------------------------
+12/13/2014 23:33  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:33  Time Gap check passed.
+12/13/2014 23:33  Ip address not found.Try to find it.
+12/13/2014 23:33  Ip address is found.
+12/13/2014 23:33  Sending system message to the client. The content is: 54.84.241.99
+12/13/2014 23:33  Adding new record into database...
+12/13/2014 23:33  Display the new try
+12/13/2014 23:33  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:33  ------------------------------------------------
+12/13/2014 23:33  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:33  Time Gap check passed.
+12/13/2014 23:33  Ip address not found.Try to find it.
+12/13/2014 23:33  Ip address is found.
+12/13/2014 23:33  Sending system message to the client. The content is: 98.139.183.24
+12/13/2014 23:33  Adding new record into database...
+12/13/2014 23:33  Display the new try
+12/13/2014 23:33  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:34  ------------------------------------------------
+12/13/2014 23:34  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:34  Time Gap check passed.
+12/13/2014 23:34  Record with the same hostname does not exist. Adding to the database.
+12/13/2014 23:34  Sending system message to the client. The content is: Adding record to database successed.
+12/13/2014 23:34  Adding record to database successed.
+12/13/2014 23:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:34  ------------------------------------------------
+12/13/2014 23:34  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:34  Time Gap check passed.
+12/13/2014 23:34  Ip address found.
+12/13/2014 23:34  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:34  ------------------------------------------------
+12/13/2014 23:34  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:34  Time Gap check passed.
+12/13/2014 23:34  Ip address found.
+12/13/2014 23:34  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:34  ------------------------------------------------
+12/13/2014 23:34  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:34  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:34  Sending system message to the client. The content is: Please wait another 7 seconds before another submission.
+12/13/2014 23:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:34  ------------------------------------------------
+12/13/2014 23:34  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:34  Time Gap check passed.
+12/13/2014 23:34  Ip address found.
+12/13/2014 23:34  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:37  The Server Started. Begin input check...
+12/13/2014 23:37  InputCheck successed.Start building socket.
+12/13/2014 23:37  Tree is built.
+12/13/2014 23:37  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:37  ------------------------------------------------
+12/13/2014 23:37  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:37  Time Gap check passed.
+12/13/2014 23:37  Ip address not found.Try to find it.
+12/13/2014 23:37  Ip address is found.
+12/13/2014 23:37  Sending system message to the client. The content is: 173.194.68.105
+12/13/2014 23:37  Adding new record into database...
+12/13/2014 23:37  Display the new try
+12/13/2014 23:37  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:37  ------------------------------------------------
+12/13/2014 23:37  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:37  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:37  Sending system message to the client. The content is: Please wait another 4 seconds before another submission.
+12/13/2014 23:37  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:37  ------------------------------------------------
+12/13/2014 23:37  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:37  Time Gap check passed.
+12/13/2014 23:37  Ip address found.
+12/13/2014 23:37  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:37  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:38  The Server Started. Begin input check...
+12/13/2014 23:38  InputCheck successed.Start building socket.
+12/13/2014 23:38  Tree is built.
+12/13/2014 23:38  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:39  ------------------------------------------------
+12/13/2014 23:39  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:39  Time Gap check passed.
+12/13/2014 23:39  Ip address not found.Try to find it.
+12/13/2014 23:39  Ip address is found.
+12/13/2014 23:39  Sending system message to the client. The content is: 173.194.68.105
+12/13/2014 23:39  Adding new record into database...
+12/13/2014 23:39  Display the new try
+12/13/2014 23:39  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:39  ------------------------------------------------
+12/13/2014 23:39  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:39  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:39  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/13/2014 23:39  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:39  ------------------------------------------------
+12/13/2014 23:39  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:39  Time Gap check passed.
+12/13/2014 23:39  Ip address found.
+12/13/2014 23:39  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:39  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:42  The Server Started. Begin input check...
+12/13/2014 23:42  InputCheck successed.Start building socket.
+12/13/2014 23:42  Tree is built.
+12/13/2014 23:42  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:42  ------------------------------------------------
+12/13/2014 23:42  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:42  Time Gap check passed.
+12/13/2014 23:42  Ip address not found.Try to find it.
+12/13/2014 23:42  Ip address is found.
+12/13/2014 23:42  Sending system message to the client. The content is: 216.58.216.228
+12/13/2014 23:42  Adding new record into database...
+12/13/2014 23:42  Display the new try
+12/13/2014 23:42  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:42  ------------------------------------------------
+12/13/2014 23:42  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:42  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:42  Sending system message to the client. The content is: Please wait another 7 seconds before another submission.
+12/13/2014 23:42  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:42  ------------------------------------------------
+12/13/2014 23:42  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:42  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:42  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 23:42  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:42  ------------------------------------------------
+12/13/2014 23:42  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:42  Time Gap check passed.
+12/13/2014 23:42  Ip address found.
+12/13/2014 23:42  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:42  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:43  The Server Started. Begin input check...
+12/13/2014 23:43  InputCheck successed.Start building socket.
+12/13/2014 23:43  Tree is built.
+12/13/2014 23:43  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:43  ------------------------------------------------
+12/13/2014 23:43  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:43  Time Gap check passed.
+12/13/2014 23:43  Ip address not found.Try to find it.
+12/13/2014 23:43  Ip address is found.
+12/13/2014 23:43  Sending system message to the client. The content is: 216.58.216.228
+12/13/2014 23:43  Adding new record into database...
+12/13/2014 23:43  Display the new try
+12/13/2014 23:43  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:43  ------------------------------------------------
+12/13/2014 23:43  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:43  Time Gap check passed.
+12/13/2014 23:43  Ip address not found.Try to find it.
+12/13/2014 23:43  Ip address is found.
+12/13/2014 23:43  Sending system message to the client. The content is: 98.139.180.149
+12/13/2014 23:43  Adding new record into database...
+12/13/2014 23:43  Display the new try
+12/13/2014 23:43  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:43  ------------------------------------------------
+12/13/2014 23:43  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:43  Time Gap check passed.
+12/13/2014 23:43  Ip address not found.Try to find it.
+12/13/2014 23:43  Ip address is found.
+12/13/2014 23:43  Sending system message to the client. The content is: 180.76.3.151
+12/13/2014 23:43  Adding new record into database...
+12/13/2014 23:43  Display the new try
+12/13/2014 23:43  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:44  ------------------------------------------------
+12/13/2014 23:44  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:44  Time Gap check passed.
+12/13/2014 23:44  Ip address not found.Try to find it.
+12/13/2014 23:44  Ip address is found.
+12/13/2014 23:44  Sending system message to the client. The content is: 101.55.30.115
+12/13/2014 23:44  Adding new record into database...
+12/13/2014 23:44  Display the new try
+12/13/2014 23:44  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:44  ------------------------------------------------
+12/13/2014 23:44  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:44  Time Gap check passed.
+12/13/2014 23:44  Ip address not found.Try to find it.
+12/13/2014 23:44  Ip address is found.
+12/13/2014 23:44  Sending system message to the client. The content is: 54.209.129.218
+12/13/2014 23:44  Adding new record into database...
+12/13/2014 23:44  Display the new try
+12/13/2014 23:44  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:44  ------------------------------------------------
+12/13/2014 23:44  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:44  Time Gap check passed.
+12/13/2014 23:44  Ip address found.
+12/13/2014 23:44  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:44  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:45  ------------------------------------------------
+12/13/2014 23:45  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:45  Time Gap check passed.
+12/13/2014 23:45  Ip address found.
+12/13/2014 23:45  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:45  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:45  ------------------------------------------------
+12/13/2014 23:45  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:45  Time Gap check passed.
+12/13/2014 23:45  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 23:45  Checking the security code...
+12/13/2014 23:45  Security code check failed. Closing the client side.
+12/13/2014 23:45  Sending system message to the client. The content is: Security code check failed
+12/13/2014 23:45  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:45  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:46  ------------------------------------------------
+12/13/2014 23:46  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:46  Time Gap check passed.
+12/13/2014 23:46  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 23:46  Checking the security code...
+12/13/2014 23:46  Security code check passed. Closing the server.
+12/13/2014 23:46  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/13/2014 23:46  Entrys were written back to the database. Server shutted down. 
+12/13/2014 23:50  The Server Started. Begin input check...
+12/13/2014 23:50  InputCheck successed.Start building socket.
+12/13/2014 23:50  Tree is built.
+12/13/2014 23:50  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:51  ------------------------------------------------
+12/13/2014 23:51  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:51  Time Gap check passed.
+12/13/2014 23:51  Ip address found.
+12/13/2014 23:51  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:51  The Server Started. Begin input check...
+12/13/2014 23:51  InputCheck successed.Start building socket.
+12/13/2014 23:51  Tree is built.
+12/13/2014 23:51  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:51  ------------------------------------------------
+12/13/2014 23:51  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:51  Time Gap check passed.
+12/13/2014 23:51  Ip address not found.Try to find it.
+12/13/2014 23:51  Ip address is found.
+12/13/2014 23:51  Sending system message to the client. The content is: 74.125.22.103
+12/13/2014 23:51  Adding new record into database...
+12/13/2014 23:51  Display the new try
+12/13/2014 23:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:51  ------------------------------------------------
+12/13/2014 23:51  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:51  Time Gap check failed. Send fail response to the client side.
+12/13/2014 23:51  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/13/2014 23:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:51  ------------------------------------------------
+12/13/2014 23:51  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:51  Time Gap check passed.
+12/13/2014 23:51  Ip address found.
+12/13/2014 23:51  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:52  ------------------------------------------------
+12/13/2014 23:52  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:52  Time Gap check passed.
+12/13/2014 23:52  Ip address found.
+12/13/2014 23:52  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:52  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:56  ------------------------------------------------
+12/13/2014 23:56  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:56  Time Gap check passed.
+12/13/2014 23:56  Ip address not found.Try to find it.
+12/13/2014 23:56  Ip address is found.
+12/13/2014 23:56  Sending system message to the client. The content is: 180.76.3.151
+12/13/2014 23:56  Adding new record into database...
+12/13/2014 23:56  Display the new try
+12/13/2014 23:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:56  ------------------------------------------------
+12/13/2014 23:56  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:56  Time Gap check passed.
+12/13/2014 23:56  Ip address found.
+12/13/2014 23:56  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:59  The Server Started. Begin input check...
+12/13/2014 23:59  InputCheck successed.Start building socket.
+12/13/2014 23:59  Tree is built.
+12/13/2014 23:59  Socket Setting-up successed. Waiting for Client...
+12/13/2014 23:59  ------------------------------------------------
+12/13/2014 23:59  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:59  Time Gap check passed.
+12/13/2014 23:59  Ip address not found.Try to find it.
+12/13/2014 23:59  Ip address is found.
+12/13/2014 23:59  Sending system message to the client. The content is: 180.76.3.151
+12/13/2014 23:59  Adding new record into database...
+12/13/2014 23:59  Display the new try
+12/13/2014 23:59  Client Socket Closed. Waiting for another clinet...
+12/13/2014 23:59  ------------------------------------------------
+12/13/2014 23:59  Cline: 10.0.0.7 attampts to connect server.
+12/13/2014 23:59  Time Gap check passed.
+12/13/2014 23:59  Ip address found.
+12/13/2014 23:59  Sending system message to the client. The content is: 10.0.0.7
+12/13/2014 23:59  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:5  The Server Started. Begin input check...
+12/14/2014 0:5  InputCheck successed.Start building socket.
+12/14/2014 0:5  Tree is built.
+12/14/2014 0:5  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:5  ------------------------------------------------
+12/14/2014 0:5  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:5  Time Gap check passed.
+12/14/2014 0:5  Ip address not found.Try to find it.
+12/14/2014 0:5  Ip address is found.
+12/14/2014 0:5  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:5  Adding new record into database...
+12/14/2014 0:5  Display the new try
+12/14/2014 0:5  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:5  ------------------------------------------------
+12/14/2014 0:5  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:5  Time Gap check failed. Send fail response to the client side.
+12/14/2014 0:5  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/14/2014 0:5  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:6  ------------------------------------------------
+12/14/2014 0:6  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:6  Time Gap check passed.
+12/14/2014 0:6  Ip address found.
+12/14/2014 0:6  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:6  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:10  The Server Started. Begin input check...
+12/14/2014 0:10  InputCheck successed.Start building socket.
+12/14/2014 0:10  Tree is built.
+12/14/2014 0:10  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:10  ------------------------------------------------
+12/14/2014 0:10  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:10  Time Gap check passed.
+12/14/2014 0:10  Ip address not found.Try to find it.
+12/14/2014 0:10  Ip address is found.
+12/14/2014 0:10  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:10  Adding new record into database...
+12/14/2014 0:10  Display the new try
+12/14/2014 0:10  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:10  ------------------------------------------------
+12/14/2014 0:10  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:10  Time Gap check failed. Send fail response to the client side.
+12/14/2014 0:10  Sending system message to the client. The content is: Please wait another 5 seconds before another submission.
+12/14/2014 0:10  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:10  ------------------------------------------------
+12/14/2014 0:10  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:10  Time Gap check passed.
+12/14/2014 0:10  Ip address found.
+12/14/2014 0:10  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:10  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:12  The Server Started. Begin input check...
+12/14/2014 0:12  InputCheck successed.Start building socket.
+12/14/2014 0:12  Tree is built.
+12/14/2014 0:12  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:12  ------------------------------------------------
+12/14/2014 0:12  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:12  Time Gap check passed.
+12/14/2014 0:12  Ip address not found.Try to find it.
+12/14/2014 0:12  Ip address is found.
+12/14/2014 0:12  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:12  Adding new record into database...
+12/14/2014 0:12  Display the new try
+12/14/2014 0:12  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:12  ------------------------------------------------
+12/14/2014 0:12  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:12  Time Gap check passed.
+12/14/2014 0:12  Ip address found.
+12/14/2014 0:12  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:12  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:14  The Server Started. Begin input check...
+12/14/2014 0:14  InputCheck successed.Start building socket.
+12/14/2014 0:14  Tree is built.
+12/14/2014 0:14  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:14  ------------------------------------------------
+12/14/2014 0:14  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:14  Time Gap check passed.
+12/14/2014 0:14  Ip address not found.Try to find it.
+12/14/2014 0:14  Ip address is found.
+12/14/2014 0:14  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:14  Adding new record into database...
+12/14/2014 0:14  Display the new try
+12/14/2014 0:14  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:14  ------------------------------------------------
+12/14/2014 0:14  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:14  Time Gap check passed.
+12/14/2014 0:14  Ip address found.
+12/14/2014 0:14  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:14  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:16  The Server Started. Begin input check...
+12/14/2014 0:16  InputCheck successed.Start building socket.
+12/14/2014 0:16  Tree is built.
+12/14/2014 0:16  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:16  The Server Started. Begin input check...
+12/14/2014 0:16  InputCheck successed.Start building socket.
+12/14/2014 0:16  Tree is built.
+12/14/2014 0:16  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:16  The Server Started. Begin input check...
+12/14/2014 0:16  InputCheck successed.Start building socket.
+12/14/2014 0:16  Tree is built.
+12/14/2014 0:16  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:17  ------------------------------------------------
+12/14/2014 0:17  abc attampts to connect server.
+12/14/2014 0:17  Time Gap check passed.
+12/14/2014 0:17  Ip address not found.Try to find it.
+12/14/2014 0:17  Ip address is found.
+12/14/2014 0:17  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:17  Adding new record into database...
+12/14/2014 0:17  Display the new try
+12/14/2014 0:17  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:17  ------------------------------------------------
+12/14/2014 0:17  abc attampts to connect server.
+12/14/2014 0:17  Time Gap check passed.
+12/14/2014 0:17  Ip address found.
+12/14/2014 0:17  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:17  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:18  The Server Started. Begin input check...
+12/14/2014 0:18  InputCheck successed.Start building socket.
+12/14/2014 0:18  Tree is built.
+12/14/2014 0:18  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:19  ------------------------------------------------
+12/14/2014 0:19  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:19  Time Gap check passed.
+12/14/2014 0:19  Ip address not found.Try to find it.
+12/14/2014 0:19  Ip address is found.
+12/14/2014 0:19  Sending system message to the client. The content is: 74.125.22.105
+12/14/2014 0:19  Adding new record into database...
+12/14/2014 0:19  Display the new try
+12/14/2014 0:19  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:19  ------------------------------------------------
+12/14/2014 0:19  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:19  Time Gap check passed.
+12/14/2014 0:19  Ip address found.
+12/14/2014 0:19  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:19  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:19  ------------------------------------------------
+12/14/2014 0:19  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:19  Time Gap check failed. Send fail response to the client side.
+12/14/2014 0:19  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/14/2014 0:19  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:19  ------------------------------------------------
+12/14/2014 0:19  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:19  Time Gap check passed.
+12/14/2014 0:19  Ip address found.
+12/14/2014 0:19  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:19  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:19  ------------------------------------------------
+12/14/2014 0:19  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:19  Time Gap check passed.
+12/14/2014 0:19  Record with the same hostname is found and deleted.
+12/14/2014 0:19  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/14/2014 0:19  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:20  ------------------------------------------------
+12/14/2014 0:20  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:20  Time Gap check failed. Send fail response to the client side.
+12/14/2014 0:20  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/14/2014 0:20  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:20  ------------------------------------------------
+12/14/2014 0:20  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:20  Time Gap check passed.
+12/14/2014 0:20  Ip address not found.Try to find it.
+12/14/2014 0:20  Ip address is found.
+12/14/2014 0:20  Sending system message to the client. The content is: 74.125.22.105
+12/14/2014 0:20  Adding new record into database...
+12/14/2014 0:20  Display the new try
+12/14/2014 0:20  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:20  ------------------------------------------------
+12/14/2014 0:20  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:20  Time Gap check passed.
+12/14/2014 0:20  Ip address not found.Try to find it.
+12/14/2014 0:20  Ip address is found.
+12/14/2014 0:20  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:20  Adding new record into database...
+12/14/2014 0:20  Display the new try
+12/14/2014 0:20  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:20  ------------------------------------------------
+12/14/2014 0:20  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:20  Time Gap check passed.
+12/14/2014 0:20  Ip address not found.Try to find it.
+12/14/2014 0:20  Ip address is found.
+12/14/2014 0:20  Sending system message to the client. The content is: 101.55.30.115
+12/14/2014 0:20  Adding new record into database...
+12/14/2014 0:20  Display the new try
+12/14/2014 0:20  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:20  ------------------------------------------------
+12/14/2014 0:20  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:20  Time Gap check passed.
+12/14/2014 0:20  Ip address found.
+12/14/2014 0:20  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:20  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:21  ------------------------------------------------
+12/14/2014 0:21  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:21  Time Gap check passed.
+12/14/2014 0:21  Ip address found.
+12/14/2014 0:21  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:21  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:21  ------------------------------------------------
+12/14/2014 0:21  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:21  Time Gap check passed.
+12/14/2014 0:21  Ip address not found.Try to find it.
+12/14/2014 0:21  Ip address is found.
+12/14/2014 0:21  Sending system message to the client. The content is: 119.75.219.38
+12/14/2014 0:21  Adding new record into database...
+12/14/2014 0:21  Display the new try
+12/14/2014 0:21  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:22  ------------------------------------------------
+12/14/2014 0:22  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:22  Time Gap check passed.
+12/14/2014 0:22  Ip address found.
+12/14/2014 0:22  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:22  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:22  The Server Started. Begin input check...
+12/14/2014 0:22  InputCheck successed.Start building socket.
+12/14/2014 0:22  Tree is built.
+12/14/2014 0:22  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:22  The Server Started. Begin input check...
+12/14/2014 0:22  InputCheck successed.Start building socket.
+12/14/2014 0:22  Tree is built.
+12/14/2014 0:22  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:22  ------------------------------------------------
+12/14/2014 0:22  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:22  Time Gap check passed.
+12/14/2014 0:22  Ip address not found.Try to find it.
+12/14/2014 0:22  Ip address is found.
+12/14/2014 0:22  Sending system message to the client. The content is: 119.75.219.38
+12/14/2014 0:22  Adding new record into database...
+12/14/2014 0:22  Display the new try
+12/14/2014 0:22  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:22  ------------------------------------------------
+12/14/2014 0:22  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:22  Time Gap check passed.
+12/14/2014 0:22  Ip address not found.Try to find it.
+12/14/2014 0:22  Ip address not found by using gethostbyname().
+12/14/2014 0:22  Sending system message to the client. The content is: Ip address not found.
+12/14/2014 0:22  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:23  ------------------------------------------------
+12/14/2014 0:23  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:23  Time Gap check passed.
+12/14/2014 0:23  Ip address not found.Try to find it.
+12/14/2014 0:23  Ip address is found.
+12/14/2014 0:23  Sending system message to the client. The content is: 74.125.22.105
+12/14/2014 0:23  Adding new record into database...
+12/14/2014 0:23  Display the new try
+12/14/2014 0:23  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:23  ------------------------------------------------
+12/14/2014 0:23  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:23  Time Gap check passed.
+12/14/2014 0:23  Ip address found.
+12/14/2014 0:23  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:23  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:25  The Server Started. Begin input check...
+12/14/2014 0:25  InputCheck successed.Start building socket.
+12/14/2014 0:25  Tree is built.
+12/14/2014 0:25  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:25  ------------------------------------------------
+12/14/2014 0:25  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:25  Time Gap check passed.
+12/14/2014 0:25  Ip address not found.Try to find it.
+12/14/2014 0:25  Ip address is found.
+12/14/2014 0:25  Sending system message to the client. The content is: 216.58.216.196
+12/14/2014 0:25  Adding new record into database...
+12/14/2014 0:25  Display the new try
+12/14/2014 0:25  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:25  ------------------------------------------------
+12/14/2014 0:25  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:25  Time Gap check passed.
+12/14/2014 0:25  Ip address found.
+12/14/2014 0:25  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:25  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:27  The Server Started. Begin input check...
+12/14/2014 0:27  InputCheck successed.Start building socket.
+12/14/2014 0:27  Tree is built.
+12/14/2014 0:27  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:27  ------------------------------------------------
+12/14/2014 0:27  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:27  Time Gap check passed.
+12/14/2014 0:27  Ip address not found.Try to find it.
+12/14/2014 0:27  Ip address is found.
+12/14/2014 0:27  Sending system message to the client. The content is: 216.58.216.196
+12/14/2014 0:27  Adding new record into database...
+12/14/2014 0:27  Display the new try
+12/14/2014 0:27  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:27  ------------------------------------------------
+12/14/2014 0:27  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:27  Time Gap check passed.
+12/14/2014 0:27  Ip address found.
+12/14/2014 0:27  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:27  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:27  ------------------------------------------------
+12/14/2014 0:27  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:27  Time Gap check passed.
+12/14/2014 0:27  Ip address not found.Try to find it.
+12/14/2014 0:27  Ip address is found.
+12/14/2014 0:27  Sending system message to the client. The content is: 220.181.163.22
+12/14/2014 0:27  Adding new record into database...
+12/14/2014 0:27  Display the new try
+12/14/2014 0:27  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:32  The Server Started. Begin input check...
+12/14/2014 0:32  InputCheck successed.Start building socket.
+12/14/2014 0:32  Tree is built.
+12/14/2014 0:32  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:33  ------------------------------------------------
+12/14/2014 0:33  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:33  Time Gap check passed.
+12/14/2014 0:33  Ip address not found.Try to find it.
+12/14/2014 0:33  Ip address is found.
+12/14/2014 0:33  Sending system message to the client. The content is: 61.135.185.29
+12/14/2014 0:33  Adding new record into database...
+12/14/2014 0:33  Display the new try
+12/14/2014 0:33  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:33  ------------------------------------------------
+12/14/2014 0:33  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:33  Time Gap check passed.
+12/14/2014 0:33  Ip address found.
+12/14/2014 0:33  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:33  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:33  ------------------------------------------------
+12/14/2014 0:33  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:33  Time Gap check passed.
+12/14/2014 0:33  Ip address found.
+12/14/2014 0:33  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:33  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:36  The Server Started. Begin input check...
+12/14/2014 0:36  InputCheck successed.Start building socket.
+12/14/2014 0:36  Tree is built.
+12/14/2014 0:36  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:36  ------------------------------------------------
+12/14/2014 0:36  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:36  Time Gap check passed.
+12/14/2014 0:36  Ip address found.
+12/14/2014 0:36  Sending system message to the client. The content is: 192.168.1.2
+12/14/2014 0:36  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:36  ------------------------------------------------
+12/14/2014 0:36  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:36  Time Gap check passed.
+12/14/2014 0:36  Ip address found.
+12/14/2014 0:36  Sending system message to the client. The content is: 128.8.237.77
+12/14/2014 0:36  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:36  ------------------------------------------------
+12/14/2014 0:36  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:36  Time Gap check passed.
+12/14/2014 0:36  Ip address found.
+12/14/2014 0:36  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/14/2014 0:36  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:36  ------------------------------------------------
+12/14/2014 0:36  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:36  Time Gap check passed.
+12/14/2014 0:36  Most requested record is found. Send back to the client.
+12/14/2014 0:36  Sending system message to the client. The content is: www.umd.edu 16 128.8.237.77
+
+12/14/2014 0:36  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Most requested record is found. Send back to the client.
+12/14/2014 0:37  Sending system message to the client. The content is: www.google.com 0 64.233.169.99
+www.hupu.com 0 192.168.1.4
+
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Record with the same hostname is found and deleted.
+12/14/2014 0:37  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address not found.Try to find it.
+12/14/2014 0:37  Ip address is found.
+12/14/2014 0:37  Sending system message to the client. The content is: 96.6.113.128
+12/14/2014 0:37  Adding new record into database...
+12/14/2014 0:37  Display the new try
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address found.
+12/14/2014 0:37  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address found.
+12/14/2014 0:37  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address found.
+12/14/2014 0:37  Sending system message to the client. The content is: 10.0.0.7
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address found.
+12/14/2014 0:37  Sending system message to the client. The content is: 128.8.237.77
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:37  ------------------------------------------------
+12/14/2014 0:37  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:37  Time Gap check passed.
+12/14/2014 0:37  Ip address found.
+12/14/2014 0:37  Sending system message to the client. The content is: 128.8.237.77
+12/14/2014 0:37  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:39  ------------------------------------------------
+12/14/2014 0:39  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:39  Time Gap check passed.
+12/14/2014 0:39  Clinet is attempting shutting down the server. (Request = 6)
+12/14/2014 0:39  Checking the security code...
+12/14/2014 0:39  Security code check passed. Closing the server.
+12/14/2014 0:39  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/14/2014 0:39  Entrys were written back to the database. Server shutted down. 
+12/14/2014 0:44  The Server Started. Begin input check...
+12/14/2014 0:44  InputCheck successed.Start building socket.
+12/14/2014 0:44  Tree is built.
+12/14/2014 0:44  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:44  ------------------------------------------------
+12/14/2014 0:44  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:44  Time Gap check passed.
+12/14/2014 0:44  Ip address not found.Try to find it.
+12/14/2014 0:45  The Server Started. Begin input check...
+12/14/2014 0:45  InputCheck successed.Start building socket.
+12/14/2014 0:45  Tree is built.
+12/14/2014 0:45  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:45  ------------------------------------------------
+12/14/2014 0:45  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:45  Time Gap check passed.
+12/14/2014 0:45  Ip address not found.Try to find it.
+12/14/2014 0:45  Ip address is found.
+12/14/2014 0:45  Sending system message to the client. The content is: 123.125.112.45
+12/14/2014 0:45  Adding new record into database...
+12/14/2014 0:45  Display the new try
+12/14/2014 0:45  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:45  ------------------------------------------------
+12/14/2014 0:45  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:45  Time Gap check passed.
+12/14/2014 0:45  Ip address found.
+12/14/2014 0:45  Sending system message to the client. The content is: 123.125.112.45
+12/14/2014 0:45  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:45  ------------------------------------------------
+12/14/2014 0:45  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:45  Time Gap check passed.
+12/14/2014 0:45  Ip address found.
+12/14/2014 0:45  Sending system message to the client. The content is: 123.125.112.45
+12/14/2014 0:45  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:46  The Server Started. Begin input check...
+12/14/2014 0:46  InputCheck successed.Start building socket.
+12/14/2014 0:46  Tree is built.
+12/14/2014 0:46  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:46  ------------------------------------------------
+12/14/2014 0:46  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:46  Time Gap check passed.
+12/14/2014 0:46  Ip address not found.Try to find it.
+12/14/2014 0:46  Ip address is found.
+12/14/2014 0:46  Sending system message to the client. The content is: 119.75.219.38
+12/14/2014 0:46  Adding new record into database...
+12/14/2014 0:46  Display the new try
+12/14/2014 0:46  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:46  ------------------------------------------------
+12/14/2014 0:46  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:46  Time Gap check passed.
+12/14/2014 0:46  Ip address found.
+12/14/2014 0:46  Sending system message to the client. The content is: 119.75.219.38
+12/14/2014 0:46  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:46  ------------------------------------------------
+12/14/2014 0:46  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:46  Time Gap check passed.
+12/14/2014 0:46  Ip address found.
+12/14/2014 0:46  Sending system message to the client. The content is: 119.75.219.38
+12/14/2014 0:46  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:46  ------------------------------------------------
+12/14/2014 0:46  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:46  Time Gap check passed.
+12/14/2014 0:46  Ip address not found.Try to find it.
+12/14/2014 0:46  Ip address is found.
+12/14/2014 0:46  Sending system message to the client. The content is: 54.84.241.99
+12/14/2014 0:46  Adding new record into database...
+12/14/2014 0:46  Display the new try
+12/14/2014 0:46  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:46  ------------------------------------------------
+12/14/2014 0:46  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:46  Time Gap check passed.
+12/14/2014 0:46  Ip address found.
+12/14/2014 0:46  Sending system message to the client. The content is: 54.84.241.99
+12/14/2014 0:46  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:47  ------------------------------------------------
+12/14/2014 0:47  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:47  Time Gap check passed.
+12/14/2014 0:47  Clinet is attempting shutting down the server. (Request = 6)
+12/14/2014 0:47  Checking the security code...
+12/14/2014 0:47  Security code check passed. Closing the server.
+12/14/2014 0:47  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/14/2014 0:47  Entrys were written back to the database. Server shutted down. 
+12/14/2014 0:51  The Server Started. Begin input check...
+12/14/2014 0:51  InputCheck successed.Start building socket.
+12/14/2014 0:51  Tree is built.
+12/14/2014 0:51  Socket Setting-up successed. Waiting for Client...
+12/14/2014 0:52  ------------------------------------------------
+12/14/2014 0:52  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:52  Time Gap check passed.
+12/14/2014 0:52  Ip address not found.Try to find it.
+12/14/2014 0:52  Ip address is found.
+12/14/2014 0:52  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:52  Adding new record into database...
+12/14/2014 0:52  Display the new try
+12/14/2014 0:52  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:52  ------------------------------------------------
+12/14/2014 0:52  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:52  Time Gap check passed.
+12/14/2014 0:52  Ip address found.
+12/14/2014 0:52  Sending system message to the client. The content is: 180.76.3.151
+12/14/2014 0:52  Client Socket Closed. Waiting for another clinet...
+12/14/2014 0:52  ------------------------------------------------
+12/14/2014 0:52  Cline: 10.0.0.7 attampts to connect server.
+12/14/2014 0:52  Time Gap check passed.
+12/14/2014 0:52  Clinet is attempting shutting down the server. (Request = 6)
+12/14/2014 0:52  Checking the security code...
+12/14/2014 0:52  Security code check passed. Closing the server.
+12/14/2014 0:52  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/14/2014 0:52  Entrys were written back to the database. Server shutted down. 

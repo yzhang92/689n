@@ -5,7 +5,7 @@
 typedef struct treeNode
 {
 	char *hostname;
-	int *reqTimes;
+	int reqTimes;
 	char **ipaddress;
 	struct treeNode *left;
 	struct treeNode *right;
@@ -47,7 +47,7 @@ treeNode * Insert1(treeNode *node, treeNode *new_node)
 
 }
 
-treeNode * Delete(treeNode *node, char *hostname)
+treeNode *Delete(treeNode *node, char *hostname)
 {
 	treeNode *temp;
 	if (node == NULL) {
@@ -137,14 +137,16 @@ void WriteTreeIntoDatabase(treeNode *node, char *filename)
 
 void PrintInOrder(treeNode *node)
 {
+	char *ip;
 	if (node == NULL)
 	{
 		return;
 	}
 	PrintInOrder(node->left);
 	printf("%s ", node->hostname);
-	printf("%d " ,GetAscii(node->hostname));
-	printf("%d\n", node->reqTimes);
+	printf("%d ", node->reqTimes);
+	ip = ArrToStr(node->ipaddress);
+	printf("%s\n", ip);
 	PrintInOrder(node->right);
 }
 
@@ -195,6 +197,14 @@ int FindMin(treeNode *node)
 	if (min >= left) min = left;
 
 	return min;
+}
+
+void FreeTree(treeNode *root) {
+	if (root == NULL) return;
+	FreeTree(root->right);
+	FreeTree(root->left);
+	free(root);
+	return;
 }
 
 

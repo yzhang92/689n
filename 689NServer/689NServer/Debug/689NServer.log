@@ -1,23 +1,25 @@
-﻿Build started 12/13/2014 7:52:40 PM.
+﻿Build started 12/14/2014 12:50:36 AM.
      1>Project "C:\Users\Zhang\Desktop\689n\689NServer\689NServer\689NServer.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt MainServer.c
-         MainServer.c
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(86): warning C4013: 'BuildTree' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(86): warning C4047: '=' : 'treeNode *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(87): warning C4013: 'PrintInOrder' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(92): warning C4013: 'ShutDown' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(141): warning C4013: 'StringAppend' undefined; assuming extern returning int
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(141): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(142): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(165): warning C4047: '=' : 'treeNode *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(171): warning C4244: 'initializing' : conversion from 'time_t' to 'int', possible loss of data
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(176): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
-     1>c:\users\zhang\desktop\689n\689nserver\689nserver\mainserver.c(177): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ShutDown.c Tree.c
+         Tree.c
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(130): warning C4013: 'NodeToString' undefined; assuming extern returning int
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(130): warning C4047: 'initializing' : 'char *' differs in levels of indirection from 'int'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(131): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(148): warning C4013: 'ArrToStr' undefined; assuming extern returning int
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(148): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(176): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(180): warning C4013: 'StringAppend' undefined; assuming extern returning int
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(180): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\tree.c(181): warning C4047: '=' : 'char *' differs in levels of indirection from 'int'
+         ShutDown.c
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\shutdown.c(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\shutdown.c(16): warning C4013: 'WriteTreeIntoDatabase' undefined; assuming extern returning int
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\shutdown.c(18): warning C4013: 'FreeTree' undefined; assuming extern returning int
+     1>c:\users\zhang\desktop\689n\689nserver\689nserver\shutdown.c(19): warning C4013: 'InputLoggerFile' undefined; assuming extern returning int
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zhang\Desktop\689n\689NServer\Debug\689NServer.exe" /INCREMENTAL /NOLOGO wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Zhang\Desktop\689n\689NServer\Debug\689NServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zhang\Desktop\689n\689NServer\Debug\689NServer.lib" /MACHINE:X86 Debug\ArrToStr.obj
          Debug\BuildTree.obj
@@ -42,4 +44,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.57
+Time Elapsed 00:00:00.38

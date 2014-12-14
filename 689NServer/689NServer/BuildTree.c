@@ -5,7 +5,7 @@
 typedef struct treeNode
 {
 	char *hostname;
-	int *reqTimes;
+	int reqTimes;
 	char **ipaddress;
 	struct treeNode *left;
 	struct treeNode *right;
