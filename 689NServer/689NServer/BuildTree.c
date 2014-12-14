@@ -4,7 +4,6 @@
 
 typedef struct treeNode
 {
-	int ascii;
 	char *hostname;
 	int *reqTimes;
 	char **ipaddress;
@@ -48,26 +47,28 @@ treeNode *BuildTree(char *fileName) {
 		i = 0;
 		file_pos = ftell(file);
 		file_pos += 1;
-		printf("%s\n", str);
+		
 		if (strlen(str) == 0){
 			return root;
 		}
 		else {
 			temp = StrToArray(str);
-			lenOfArr = sizeof(temp) / sizeof(char *);
+			lenOfArr = -1;
+			while (temp[++lenOfArr] != NULL);
 			new_node = malloc(sizeof(treeNode));
-		    new_node->ascii = GetAscii(temp[0]);
 			new_node->hostname = temp[0];
-			new_node->reqTimes = 0;
-			str_arr = malloc((lenOfArr - 2) * sizeof(char *));
-			for (int i = 0; i < lenOfArr - 2; i++){
+			new_node->reqTimes = atoi(temp[1]);
+			str_arr = malloc((lenOfArr - 1) * sizeof(char *));
+			for (int i = 0; i < lenOfArr - 1; i++){
 				str_arr[i] = temp[i + 2];
 			}
 			new_node->ipaddress = str_arr;
 			new_node->left = NULL;
 			new_node->right = NULL;
-			root = Insert1(root, new_node);
+			root = Insert1(root, new_node); 
 		}
+		
+		
 	} while (fgetc(file) != EOF);
 	return root;
 

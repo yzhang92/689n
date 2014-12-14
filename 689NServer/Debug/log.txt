@@ -336,3 +336,1444 @@
 12/12/2014 18:3  Security code check passed. Closing the server.
 12/12/2014 18:3  Sending system message to the client. The content is: Security code check passed. Server is closed
 12/12/2014 18:3  Server is shutted Down.
+12/13/2014 14:38  The Server Started. Begin input check...
+12/13/2014 14:38  InputCheck successed.Start building socket.
+12/13/2014 14:38  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:40  ------------------------------------------------
+12/13/2014 14:40  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:40  Time Gap check passed.
+12/13/2014 14:40  Sending system message to the client. The content is: Test: get case 1
+12/13/2014 14:40  Client Socket Closed. Waiting for another clinet...
+12/13/2014 14:45  The Server Started. Begin input check...
+12/13/2014 14:45  InputCheck successed.Start building socket.
+12/13/2014 14:45  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:45  ------------------------------------------------
+12/13/2014 14:45  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:45  Time Gap check passed.
+12/13/2014 14:45  Ip address not found.Try to find it.
+12/13/2014 14:45  Ip address not found by using gethostbyname().
+12/13/2014 14:46  The Server Started. Begin input check...
+12/13/2014 14:46  InputCheck successed.Start building socket.
+12/13/2014 14:46  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:46  ------------------------------------------------
+12/13/2014 14:46  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:46  Time Gap check passed.
+12/13/2014 14:46  Ip address not found.Try to find it.
+12/13/2014 14:46  Ip address not found by using gethostbyname().
+12/13/2014 14:49  The Server Started. Begin input check...
+12/13/2014 14:49  InputCheck successed.Start building socket.
+12/13/2014 14:49  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:49  ------------------------------------------------
+12/13/2014 14:49  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:49  Time Gap check passed.
+12/13/2014 14:49  Ip address not found.Try to find it.
+12/13/2014 14:49  Ip address not found by using gethostbyname().
+12/13/2014 14:50  The Server Started. Begin input check...
+12/13/2014 14:50  InputCheck successed.Start building socket.
+12/13/2014 14:50  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:50  ------------------------------------------------
+12/13/2014 14:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:50  Time Gap check passed.
+12/13/2014 14:50  Ip address found.
+12/13/2014 14:54  The Server Started. Begin input check...
+12/13/2014 14:54  InputCheck successed.Start building socket.
+12/13/2014 14:54  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:54  ------------------------------------------------
+12/13/2014 14:54  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:54  Time Gap check passed.
+12/13/2014 14:54  Ip address found.
+12/13/2014 14:56  The Server Started. Begin input check...
+12/13/2014 14:56  InputCheck successed.Start building socket.
+12/13/2014 14:56  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:56  ------------------------------------------------
+12/13/2014 14:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:56  Time Gap check passed.
+12/13/2014 14:56  Ip address found.
+12/13/2014 14:57  The Server Started. Begin input check...
+12/13/2014 14:57  InputCheck successed.Start building socket.
+12/13/2014 14:57  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:57  ------------------------------------------------
+12/13/2014 14:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:57  Time Gap check passed.
+12/13/2014 14:57  Ip address found.
+12/13/2014 14:59  The Server Started. Begin input check...
+12/13/2014 14:59  InputCheck successed.Start building socket.
+12/13/2014 14:59  Socket Setting-up successed. Waiting for Client...
+12/13/2014 14:59  ------------------------------------------------
+12/13/2014 14:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 14:59  Time Gap check passed.
+12/13/2014 14:59  Ip address found.
+12/13/2014 15:0  The Server Started. Begin input check...
+12/13/2014 15:0  InputCheck successed.Start building socket.
+12/13/2014 15:0  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:0  ------------------------------------------------
+12/13/2014 15:0  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:0  Time Gap check passed.
+12/13/2014 15:0  Ip address found.
+12/13/2014 15:0  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/13/2014 15:0  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:0  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:3  The Server Started. Begin input check...
+12/13/2014 15:3  InputCheck successed.Start building socket.
+12/13/2014 15:3  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:3  ------------------------------------------------
+12/13/2014 15:3  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:3  Time Gap check passed.
+12/13/2014 15:3  Ip address found.
+12/13/2014 15:3  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/13/2014 15:3  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:4  ------------------------------------------------
+12/13/2014 15:4  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:4  Time Gap check passed.
+12/13/2014 15:4  Ip address not found.Try to find it.
+12/13/2014 15:4  Ip address is found.
+12/13/2014 15:4  The Server Started. Begin input check...
+12/13/2014 15:4  InputCheck successed.Start building socket.
+12/13/2014 15:4  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:5  ------------------------------------------------
+12/13/2014 15:5  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:5  Time Gap check passed.
+12/13/2014 15:5  Ip address not found.Try to find it.
+12/13/2014 15:5  Ip address is found.
+12/13/2014 15:5  The Server Started. Begin input check...
+12/13/2014 15:5  InputCheck successed.Start building socket.
+12/13/2014 15:5  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:5  ------------------------------------------------
+12/13/2014 15:5  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:5  Time Gap check passed.
+12/13/2014 15:5  Ip address not found.Try to find it.
+12/13/2014 15:5  Ip address is found.
+12/13/2014 15:6  The Server Started. Begin input check...
+12/13/2014 15:6  InputCheck successed.Start building socket.
+12/13/2014 15:6  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:6  ------------------------------------------------
+12/13/2014 15:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:6  Time Gap check passed.
+12/13/2014 15:6  Ip address not found.Try to find it.
+12/13/2014 15:6  Ip address is found.
+12/13/2014 15:7  The Server Started. Begin input check...
+12/13/2014 15:7  InputCheck successed.Start building socket.
+12/13/2014 15:7  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:7  ------------------------------------------------
+12/13/2014 15:7  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:7  Time Gap check passed.
+12/13/2014 15:7  Ip address not found.Try to find it.
+12/13/2014 15:7  Ip address is found.
+12/13/2014 15:7  Sending system message to the client. The content is: 23.0.160.27
+12/13/2014 15:7  Adding new record into database...
+12/13/2014 15:7  Display the new try
+12/13/2014 15:8  The Server Started. Begin input check...
+12/13/2014 15:8  InputCheck successed.Start building socket.
+12/13/2014 15:8  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:8  ------------------------------------------------
+12/13/2014 15:8  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:8  Time Gap check passed.
+12/13/2014 15:8  Ip address not found.Try to find it.
+12/13/2014 15:8  Ip address is found.
+12/13/2014 15:8  Sending system message to the client. The content is: 23.0.160.50
+12/13/2014 15:8  Adding new record into database...
+12/13/2014 15:8  Display the new try
+12/13/2014 15:8  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:20  The Server Started. Begin input check...
+12/13/2014 15:20  InputCheck successed.Start building socket.
+12/13/2014 15:20  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:21  ------------------------------------------------
+12/13/2014 15:21  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:21  Time Gap check passed.
+12/13/2014 15:21  The Server Started. Begin input check...
+12/13/2014 15:21  InputCheck successed.Start building socket.
+12/13/2014 15:21  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:21  ------------------------------------------------
+12/13/2014 15:21  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:21  Time Gap check passed.
+12/13/2014 15:21  Ip address not found.Try to find it.
+12/13/2014 15:21  Ip address is found.
+12/13/2014 15:21  Sending system message to the client. The content is: 23.0.160.27
+12/13/2014 15:21  Adding new record into database...
+12/13/2014 15:21  Display the new try
+12/13/2014 15:21  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:23  The Server Started. Begin input check...
+12/13/2014 15:23  InputCheck successed.Start building socket.
+12/13/2014 15:23  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:23  ------------------------------------------------
+12/13/2014 15:23  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:23  Time Gap check passed.
+12/13/2014 15:23  Record with the same hostname exists. Please try another one.
+12/13/2014 15:23  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:24  ------------------------------------------------
+12/13/2014 15:24  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:24  Time Gap check passed.
+12/13/2014 15:24  Record with the same hostname exists. Please try another one.
+12/13/2014 15:24  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:26  The Server Started. Begin input check...
+12/13/2014 15:26  InputCheck successed.Start building socket.
+12/13/2014 15:26  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:26  ------------------------------------------------
+12/13/2014 15:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:26  Time Gap check passed.
+12/13/2014 15:26  Record with the same hostname exists. Please try another one.
+12/13/2014 15:26  The Server Started. Begin input check...
+12/13/2014 15:26  InputCheck successed.Start building socket.
+12/13/2014 15:26  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:26  ------------------------------------------------
+12/13/2014 15:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:26  Time Gap check passed.
+12/13/2014 15:26  Record with the same hostname exists. Please try another one.
+12/13/2014 15:26  Sending system message to the client. The content is: Record with the same hostname exists. Please try another one.
+12/13/2014 15:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:27  ------------------------------------------------
+12/13/2014 15:27  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:27  Time Gap check passed.
+12/13/2014 15:27  Record with the same hostname exists. Please try another one.
+12/13/2014 15:27  Sending system message to the client. The content is: Record with the same hostname exists. Please try another one.
+12/13/2014 15:27  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:27  The Server Started. Begin input check...
+12/13/2014 15:27  InputCheck successed.Start building socket.
+12/13/2014 15:27  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:27  ------------------------------------------------
+12/13/2014 15:27  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:27  Time Gap check passed.
+12/13/2014 15:27  Record with the same hostname exists. Please try another one.
+12/13/2014 15:27  Sending system message to the client. The content is: Record with the same hostname exists. Please try another one.
+12/13/2014 15:27  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:29  The Server Started. Begin input check...
+12/13/2014 15:29  InputCheck successed.Start building socket.
+12/13/2014 15:29  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:29  ------------------------------------------------
+12/13/2014 15:29  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:29  Time Gap check passed.
+12/13/2014 15:29  Record with the same hostname exists. Please try another one.
+12/13/2014 15:29  Sending system message to the client. The content is: Record with the same hostname exists. Please try another one.
+12/13/2014 15:29  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:29  ------------------------------------------------
+12/13/2014 15:29  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:29  Time Gap check passed.
+12/13/2014 15:29  Record with the same hostname does not exist. Adding to the database.
+12/13/2014 15:30  The Server Started. Begin input check...
+12/13/2014 15:30  InputCheck successed.Start building socket.
+12/13/2014 15:30  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:30  ------------------------------------------------
+12/13/2014 15:30  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:30  Time Gap check passed.
+12/13/2014 15:30  Record with the same hostname does not exist. Adding to the database.
+12/13/2014 15:30  Sending system message to the client. The content is: Adding record to database successed.
+12/13/2014 15:30  Adding record to database successed.
+12/13/2014 15:30  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:48  The Server Started. Begin input check...
+12/13/2014 15:48  InputCheck successed.Start building socket.
+12/13/2014 15:48  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:48  ------------------------------------------------
+12/13/2014 15:48  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:48  Time Gap check passed.
+12/13/2014 15:53  The Server Started. Begin input check...
+12/13/2014 15:53  InputCheck successed.Start building socket.
+12/13/2014 15:53  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:53  ------------------------------------------------
+12/13/2014 15:53  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:53  Time Gap check passed.
+12/13/2014 15:54  The Server Started. Begin input check...
+12/13/2014 15:54  InputCheck successed.Start building socket.
+12/13/2014 15:54  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:54  ------------------------------------------------
+12/13/2014 15:54  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:54  Time Gap check passed.
+12/13/2014 15:55  The Server Started. Begin input check...
+12/13/2014 15:55  InputCheck successed.Start building socket.
+12/13/2014 15:55  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:55  ------------------------------------------------
+12/13/2014 15:55  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:55  Time Gap check passed.
+12/13/2014 15:55  Ip address found.
+12/13/2014 15:55  Sending system message to the client. The content is: 64.233.169.99
+12/13/2014 15:55  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:55  ------------------------------------------------
+12/13/2014 15:55  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:55  Time Gap check passed.
+12/13/2014 15:55  Ip address not found.Try to find it.
+12/13/2014 15:55  Ip address is found.
+12/13/2014 15:55  Sending system message to the client. The content is: 23.0.160.27
+12/13/2014 15:55  Adding new record into database...
+12/13/2014 15:55  Display the new try
+12/13/2014 15:55  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:55  ------------------------------------------------
+12/13/2014 15:55  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:55  Time Gap check passed.
+12/13/2014 15:55  Ip address not found.Try to find it.
+12/13/2014 15:55  Ip address is found.
+12/13/2014 15:55  Sending system message to the client. The content is: 101.55.30.115
+12/13/2014 15:55  Adding new record into database...
+12/13/2014 15:55  Display the new try
+12/13/2014 15:55  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:56  ------------------------------------------------
+12/13/2014 15:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:56  Time Gap check passed.
+12/13/2014 15:56  Ip address not found.Try to find it.
+12/13/2014 15:56  Ip address is found.
+12/13/2014 15:56  Sending system message to the client. The content is: 54.209.129.218
+12/13/2014 15:56  Adding new record into database...
+12/13/2014 15:56  Display the new try
+12/13/2014 15:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:56  ------------------------------------------------
+12/13/2014 15:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:56  Time Gap check passed.
+12/13/2014 15:56  Ip address not found.Try to find it.
+12/13/2014 15:56  Ip address not found by using gethostbyname().
+12/13/2014 15:57  The Server Started. Begin input check...
+12/13/2014 15:57  InputCheck successed.Start building socket.
+12/13/2014 15:57  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:57  ------------------------------------------------
+12/13/2014 15:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:57  Time Gap check passed.
+12/13/2014 15:57  Ip address not found.Try to find it.
+12/13/2014 15:57  Ip address not found by using gethostbyname().
+12/13/2014 15:57  Sending system message to the client. The content is: Ip address not found.
+12/13/2014 15:57  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:57  ------------------------------------------------
+12/13/2014 15:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:57  Time Gap check passed.
+12/13/2014 15:58  The Server Started. Begin input check...
+12/13/2014 15:58  InputCheck successed.Start building socket.
+12/13/2014 15:58  Socket Setting-up successed. Waiting for Client...
+12/13/2014 15:58  ------------------------------------------------
+12/13/2014 15:58  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:58  Time Gap check passed.
+12/13/2014 15:58  Record with the same hostname exists. Please try another one.
+12/13/2014 15:58  Sending system message to the client. The content is: Record with the same hostname exists. Please try another one.
+12/13/2014 15:58  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:59  ------------------------------------------------
+12/13/2014 15:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:59  Time Gap check passed.
+12/13/2014 15:59  Record with the same hostname does not exist. Adding to the database.
+12/13/2014 15:59  Sending system message to the client. The content is: Adding record to database successed.
+12/13/2014 15:59  Adding record to database successed.
+12/13/2014 15:59  Client Socket Closed. Waiting for another clinet...
+12/13/2014 15:59  ------------------------------------------------
+12/13/2014 15:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 15:59  Time Gap check passed.
+12/13/2014 15:59  Record with the same hostname does not exist. Adding to the database.
+12/13/2014 15:59  Sending system message to the client. The content is: Adding record to database successed.
+12/13/2014 15:59  Adding record to database successed.
+12/13/2014 15:59  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:5  The Server Started. Begin input check...
+12/13/2014 16:5  InputCheck successed.Start building socket.
+12/13/2014 16:5  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:6  ------------------------------------------------
+12/13/2014 16:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:6  Time Gap check passed.
+12/13/2014 16:6  Record with the same hostname is found.
+12/13/2014 16:6  Record deleted.
+12/13/2014 16:6  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:6  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:6  The Server Started. Begin input check...
+12/13/2014 16:6  InputCheck successed.Start building socket.
+12/13/2014 16:6  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:7  ------------------------------------------------
+12/13/2014 16:7  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:7  Time Gap check passed.
+12/13/2014 16:7  Record with the same hostname is found.
+12/13/2014 16:7  Record deleted.
+12/13/2014 16:7  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:7  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:7  ------------------------------------------------
+12/13/2014 16:7  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:7  Time Gap check passed.
+12/13/2014 16:7  Record with the same hostname is found.
+12/13/2014 16:7  Record deleted.
+12/13/2014 16:7  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:7  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:8  The Server Started. Begin input check...
+12/13/2014 16:8  InputCheck successed.Start building socket.
+12/13/2014 16:8  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:8  ------------------------------------------------
+12/13/2014 16:8  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:8  Time Gap check passed.
+12/13/2014 16:8  Record with the same hostname is found.
+12/13/2014 16:8  Record deleted.
+12/13/2014 16:8  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:8  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:25  The Server Started. Begin input check...
+12/13/2014 16:25  InputCheck successed.Start building socket.
+12/13/2014 16:25  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:25  ------------------------------------------------
+12/13/2014 16:25  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:25  Time Gap check passed.
+12/13/2014 16:25  Record with the same hostname is found.
+12/13/2014 16:25  Record deleted.
+12/13/2014 16:25  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:25  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:27  The Server Started. Begin input check...
+12/13/2014 16:27  InputCheck successed.Start building socket.
+12/13/2014 16:27  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:27  ------------------------------------------------
+12/13/2014 16:27  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:27  Time Gap check passed.
+12/13/2014 16:27  Record with the same hostname is found.
+12/13/2014 16:27  Record deleted.
+12/13/2014 16:27  Sending system message to the client. The content is: Record with the same hostname is found and deleted
+12/13/2014 16:27  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:35  The Server Started. Begin input check...
+12/13/2014 16:35  InputCheck successed.Start building socket.
+12/13/2014 16:35  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:35  ------------------------------------------------
+12/13/2014 16:35  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:35  Time Gap check passed.
+12/13/2014 16:35  Record with the same hostname does not exist. Please try another one.
+12/13/2014 16:35  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 16:35  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:36  ------------------------------------------------
+12/13/2014 16:36  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:36  Time Gap check passed.
+12/13/2014 16:36  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:39  The Server Started. Begin input check...
+12/13/2014 16:39  InputCheck successed.Start building socket.
+12/13/2014 16:39  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:39  ------------------------------------------------
+12/13/2014 16:39  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:39  Time Gap check passed.
+12/13/2014 16:39  Record with the same hostname does not exist. Please try another one.
+12/13/2014 16:39  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 16:39  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:40  The Server Started. Begin input check...
+12/13/2014 16:40  InputCheck successed.Start building socket.
+12/13/2014 16:40  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:40  ------------------------------------------------
+12/13/2014 16:40  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:40  Time Gap check passed.
+12/13/2014 16:40  Record with the same hostname is found and deleted.
+12/13/2014 16:40  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:40  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:40  ------------------------------------------------
+12/13/2014 16:40  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:40  Time Gap check passed.
+12/13/2014 16:40  Record with the same hostname is found and deleted.
+12/13/2014 16:40  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:40  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:40  ------------------------------------------------
+12/13/2014 16:40  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:40  Time Gap check passed.
+12/13/2014 16:40  Record with the same hostname is found and deleted.
+12/13/2014 16:40  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:40  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check failed. Send fail response to the client side.
+12/13/2014 16:41  Sending system message to the client. The content is: Please wait another 6 seconds before another submission.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check passed.
+12/13/2014 16:41  Record with the same hostname is found and deleted.
+12/13/2014 16:41  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check passed.
+12/13/2014 16:41  Record with the same hostname is found and deleted.
+12/13/2014 16:41  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check passed.
+12/13/2014 16:41  Record with the same hostname is found and deleted.
+12/13/2014 16:41  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check failed. Send fail response to the client side.
+12/13/2014 16:41  Sending system message to the client. The content is: Please wait another 2 seconds before another submission.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:41  ------------------------------------------------
+12/13/2014 16:41  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:41  Time Gap check passed.
+12/13/2014 16:41  Record with the same hostname is found and deleted.
+12/13/2014 16:41  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:41  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:43  The Server Started. Begin input check...
+12/13/2014 16:43  InputCheck successed.Start building socket.
+12/13/2014 16:43  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:43  ------------------------------------------------
+12/13/2014 16:43  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:43  Time Gap check passed.
+12/13/2014 16:43  Record with the same hostname is found and deleted.
+12/13/2014 16:43  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:43  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:47  The Server Started. Begin input check...
+12/13/2014 16:47  InputCheck successed.Start building socket.
+12/13/2014 16:47  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:47  ------------------------------------------------
+12/13/2014 16:47  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:47  Time Gap check passed.
+12/13/2014 16:47  Record with the same hostname is found and deleted.
+12/13/2014 16:47  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:47  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:49  ------------------------------------------------
+12/13/2014 16:49  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:49  Time Gap check passed.
+12/13/2014 16:49  Record with the same hostname is found and deleted.
+12/13/2014 16:49  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:49  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:50  ------------------------------------------------
+12/13/2014 16:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:50  Time Gap check passed.
+12/13/2014 16:50  Record with the same hostname is found and deleted.
+12/13/2014 16:50  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:50  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:51  The Server Started. Begin input check...
+12/13/2014 16:51  InputCheck successed.Start building socket.
+12/13/2014 16:51  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:51  ------------------------------------------------
+12/13/2014 16:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:51  Time Gap check passed.
+12/13/2014 16:51  Record with the same hostname is found and deleted.
+12/13/2014 16:51  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:52  The Server Started. Begin input check...
+12/13/2014 16:52  InputCheck successed.Start building socket.
+12/13/2014 16:52  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:52  ------------------------------------------------
+12/13/2014 16:52  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:52  Time Gap check passed.
+12/13/2014 16:52  Record with the same hostname is found and deleted.
+12/13/2014 16:52  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:52  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:55  The Server Started. Begin input check...
+12/13/2014 16:55  InputCheck successed.Start building socket.
+12/13/2014 16:55  Socket Setting-up successed. Waiting for Client...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check passed.
+12/13/2014 16:56  Ip address found.
+12/13/2014 16:56  Sending system message to the client. The content is: 64.233.169.99
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check passed.
+12/13/2014 16:56  Ip address found.
+12/13/2014 16:56  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check failed. Send fail response to the client side.
+12/13/2014 16:56  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check passed.
+12/13/2014 16:56  Ip address found.
+12/13/2014 16:56  Sending system message to the client. The content is: 128.8.237.77
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check failed. Send fail response to the client side.
+12/13/2014 16:56  Sending system message to the client. The content is: Please wait another 4 seconds before another submission.
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:56  ------------------------------------------------
+12/13/2014 16:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:56  Time Gap check passed.
+12/13/2014 16:56  Ip address not found.Try to find it.
+12/13/2014 16:56  Ip address is found.
+12/13/2014 16:56  Sending system message to the client. The content is: 74.125.228.248
+12/13/2014 16:56  Adding new record into database...
+12/13/2014 16:56  Display the new try
+12/13/2014 16:56  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:57  ------------------------------------------------
+12/13/2014 16:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:57  Time Gap check passed.
+12/13/2014 16:57  Ip address not found.Try to find it.
+12/13/2014 16:57  Ip address not found by using gethostbyname().
+12/13/2014 16:57  Sending system message to the client. The content is: Ip address not found.
+12/13/2014 16:57  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:57  ------------------------------------------------
+12/13/2014 16:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:57  Time Gap check passed.
+12/13/2014 16:57  Record with the same hostname is found and deleted.
+12/13/2014 16:57  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:57  Client Socket Closed. Waiting for another clinet...
+12/13/2014 16:57  ------------------------------------------------
+12/13/2014 16:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 16:57  Time Gap check passed.
+12/13/2014 16:57  Record with the same hostname is found and deleted.
+12/13/2014 16:57  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 16:57  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:1  The Server Started. Begin input check...
+12/13/2014 17:1  InputCheck successed.Start building socket.
+12/13/2014 17:1  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:1  ------------------------------------------------
+12/13/2014 17:1  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:1  Time Gap check passed.
+12/13/2014 17:1  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:1  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:1  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:2  The Server Started. Begin input check...
+12/13/2014 17:2  InputCheck successed.Start building socket.
+12/13/2014 17:2  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:2  ------------------------------------------------
+12/13/2014 17:2  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:2  Time Gap check passed.
+12/13/2014 17:2  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:2  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:2  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:3  The Server Started. Begin input check...
+12/13/2014 17:3  InputCheck successed.Start building socket.
+12/13/2014 17:3  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:3  ------------------------------------------------
+12/13/2014 17:3  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:3  Time Gap check passed.
+12/13/2014 17:3  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:3  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:3  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:4  ------------------------------------------------
+12/13/2014 17:4  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:4  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:4  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 17:4  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:4  ------------------------------------------------
+12/13/2014 17:4  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:4  Time Gap check passed.
+12/13/2014 17:4  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:4  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:4  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:4  ------------------------------------------------
+12/13/2014 17:4  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:4  Time Gap check passed.
+12/13/2014 17:4  Record with the same hostname is found and deleted.
+12/13/2014 17:4  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:4  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:6  The Server Started. Begin input check...
+12/13/2014 17:6  InputCheck successed.Start building socket.
+12/13/2014 17:6  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:6  ------------------------------------------------
+12/13/2014 17:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:6  Time Gap check passed.
+12/13/2014 17:6  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:6  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:6  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:8  The Server Started. Begin input check...
+12/13/2014 17:8  InputCheck successed.Start building socket.
+12/13/2014 17:8  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:8  ------------------------------------------------
+12/13/2014 17:8  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:8  Time Gap check passed.
+12/13/2014 17:8  Tree is built.
+12/13/2014 17:8  Record with the same hostname is found and deleted.
+12/13/2014 17:8  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:8  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:8  ------------------------------------------------
+12/13/2014 17:8  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:8  Time Gap check passed.
+12/13/2014 17:8  Tree is built.
+12/13/2014 17:8  Record with the same hostname is found and deleted.
+12/13/2014 17:8  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:8  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  The Server Started. Begin input check...
+12/13/2014 17:10  InputCheck successed.Start building socket.
+12/13/2014 17:10  Tree is built.
+12/13/2014 17:10  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check passed.
+12/13/2014 17:10  Record with the same hostname is found and deleted.
+12/13/2014 17:10  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:10  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:10  Sending system message to the client. The content is: Please wait another 4 seconds before another submission.
+12/13/2014 17:10  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check passed.
+12/13/2014 17:10  Record with the same hostname is found and deleted.
+12/13/2014 17:10  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:10  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check passed.
+12/13/2014 17:10  Record with the same hostname is found and deleted.
+12/13/2014 17:10  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:10  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:10  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/13/2014 17:10  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:10  ------------------------------------------------
+12/13/2014 17:10  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:10  Time Gap check passed.
+12/13/2014 17:16  The Server Started. Begin input check...
+12/13/2014 17:16  InputCheck successed.Start building socket.
+12/13/2014 17:16  Tree is built.
+12/13/2014 17:16  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check passed.
+12/13/2014 17:16  Record with the same hostname is found and deleted.
+12/13/2014 17:16  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:16  Sending system message to the client. The content is: Please wait another 6 seconds before another submission.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:16  Sending system message to the client. The content is: Please wait another 4 seconds before another submission.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check passed.
+12/13/2014 17:16  Record with the same hostname is found and deleted.
+12/13/2014 17:16  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:16  Sending system message to the client. The content is: Please wait another 3 seconds before another submission.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check passed.
+12/13/2014 17:16  Record with the same hostname is found and deleted.
+12/13/2014 17:16  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:16  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 17:16  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:16  ------------------------------------------------
+12/13/2014 17:16  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:16  Time Gap check passed.
+12/13/2014 17:18  The Server Started. Begin input check...
+12/13/2014 17:18  InputCheck successed.Start building socket.
+12/13/2014 17:18  Tree is built.
+12/13/2014 17:18  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:18  ------------------------------------------------
+12/13/2014 17:18  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:18  Time Gap check passed.
+12/13/2014 17:18  Record with the same hostname is found and deleted.
+12/13/2014 17:18  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:18  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:18  ------------------------------------------------
+12/13/2014 17:18  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:18  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:18  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 17:18  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:18  ------------------------------------------------
+12/13/2014 17:18  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:18  Time Gap check passed.
+12/13/2014 17:18  Record with the same hostname is found and deleted.
+12/13/2014 17:18  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:18  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:18  ------------------------------------------------
+12/13/2014 17:18  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:18  Time Gap check passed.
+12/13/2014 17:18  Ip address found.
+12/13/2014 17:18  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/13/2014 17:18  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:19  ------------------------------------------------
+12/13/2014 17:19  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:19  Time Gap check passed.
+12/13/2014 17:19  Record with the same hostname is found and deleted.
+12/13/2014 17:19  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:19  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:19  ------------------------------------------------
+12/13/2014 17:19  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:19  Time Gap check passed.
+12/13/2014 17:19  The Server Started. Begin input check...
+12/13/2014 17:19  InputCheck successed.Start building socket.
+12/13/2014 17:19  Tree is built.
+12/13/2014 17:19  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:19  ------------------------------------------------
+12/13/2014 17:19  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:19  Time Gap check passed.
+12/13/2014 17:19  Record with the same hostname is found and deleted.
+12/13/2014 17:19  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:19  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:20  ------------------------------------------------
+12/13/2014 17:20  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:20  Time Gap check passed.
+12/13/2014 17:20  Record with the same hostname is found and deleted.
+12/13/2014 17:20  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:20  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:20  ------------------------------------------------
+12/13/2014 17:20  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:20  Time Gap check passed.
+12/13/2014 17:20  Record with the same hostname is found and deleted.
+12/13/2014 17:20  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:20  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:20  ------------------------------------------------
+12/13/2014 17:20  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:20  Time Gap check passed.
+12/13/2014 17:21  The Server Started. Begin input check...
+12/13/2014 17:21  InputCheck successed.Start building socket.
+12/13/2014 17:21  Tree is built.
+12/13/2014 17:21  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:21  ------------------------------------------------
+12/13/2014 17:21  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:21  Time Gap check passed.
+12/13/2014 17:21  Record with the same hostname is found and deleted.
+12/13/2014 17:21  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:21  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:21  ------------------------------------------------
+12/13/2014 17:21  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:21  Time Gap check passed.
+12/13/2014 17:21  Record with the same hostname is found and deleted.
+12/13/2014 17:21  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:21  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:21  ------------------------------------------------
+12/13/2014 17:21  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:21  Time Gap check passed.
+12/13/2014 17:21  Record with the same hostname is found and deleted.
+12/13/2014 17:21  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:21  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:22  ------------------------------------------------
+12/13/2014 17:22  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:22  Time Gap check passed.
+12/13/2014 17:23  The Server Started. Begin input check...
+12/13/2014 17:23  InputCheck successed.Start building socket.
+12/13/2014 17:23  Tree is built.
+12/13/2014 17:23  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:23  ------------------------------------------------
+12/13/2014 17:23  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:23  Time Gap check passed.
+12/13/2014 17:23  Record with the same hostname is found and deleted.
+12/13/2014 17:23  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:23  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:23  ------------------------------------------------
+12/13/2014 17:23  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:23  Time Gap check passed.
+12/13/2014 17:26  The Server Started. Begin input check...
+12/13/2014 17:26  InputCheck successed.Start building socket.
+12/13/2014 17:26  Tree is built.
+12/13/2014 17:26  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:26  ------------------------------------------------
+12/13/2014 17:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:26  Time Gap check passed.
+12/13/2014 17:26  Ip address found.
+12/13/2014 17:26  Sending system message to the client. The content is: 98.138.253.109 206.190.36.45 98.139.183.24
+12/13/2014 17:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:26  ------------------------------------------------
+12/13/2014 17:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:26  Time Gap check passed.
+12/13/2014 17:26  Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:26  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 17:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:26  ------------------------------------------------
+12/13/2014 17:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:26  Time Gap check passed.
+12/13/2014 17:26  Record with the same hostname is found and deleted.
+12/13/2014 17:26  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:28  The Server Started. Begin input check...
+12/13/2014 17:28  InputCheck successed.Start building socket.
+12/13/2014 17:28  Tree is built.
+12/13/2014 17:28  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:28  ------------------------------------------------
+12/13/2014 17:28  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:28  Time Gap check passed.
+12/13/2014 17:28  Record with the same hostname is found and deleted.
+12/13/2014 17:28  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:28  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:28  ------------------------------------------------
+12/13/2014 17:28  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:28  Time Gap check passed.
+12/13/2014 17:29  The Server Started. Begin input check...
+12/13/2014 17:29  InputCheck successed.Start building socket.
+12/13/2014 17:29  Tree is built.
+12/13/2014 17:29  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:29  ------------------------------------------------
+12/13/2014 17:29  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:29  Time Gap check passed.
+12/13/2014 17:29  Record with the same hostname is found and deleted.
+12/13/2014 17:29  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:29  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:29  ------------------------------------------------
+12/13/2014 17:29  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:29  Time Gap check passed.
+12/13/2014 17:31  The Server Started. Begin input check...
+12/13/2014 17:31  InputCheck successed.Start building socket.
+12/13/2014 17:31  Tree is built.
+12/13/2014 17:31  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:31  ------------------------------------------------
+12/13/2014 17:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:31  Time Gap check passed.
+12/13/2014 17:31  Record with the same hostname is found and deleted.
+12/13/2014 17:31  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:31  ------------------------------------------------
+12/13/2014 17:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:31  Time Gap check passed.
+12/13/2014 17:32  The Server Started. Begin input check...
+12/13/2014 17:32  InputCheck successed.Start building socket.
+12/13/2014 17:32  Tree is built.
+12/13/2014 17:32  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:32  ------------------------------------------------
+12/13/2014 17:32  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:32  Time Gap check passed.
+12/13/2014 17:32  Record with the same hostname is found and deleted.
+12/13/2014 17:32  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:32  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:33  ------------------------------------------------
+12/13/2014 17:33  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:33  Time Gap check passed.
+12/13/2014 17:34  The Server Started. Begin input check...
+12/13/2014 17:34  InputCheck successed.Start building socket.
+12/13/2014 17:34  Tree is built.
+12/13/2014 17:34  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:34  ------------------------------------------------
+12/13/2014 17:34  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:34  Time Gap check passed.
+12/13/2014 17:34  Record with the same hostname is found and deleted.
+12/13/2014 17:34  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:34  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:34  ------------------------------------------------
+12/13/2014 17:34  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:34  Time Gap check passed.
+12/13/2014 17:36  The Server Started. Begin input check...
+12/13/2014 17:36  InputCheck successed.Start building socket.
+12/13/2014 17:36  Tree is built.
+12/13/2014 17:36  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:36  ------------------------------------------------
+12/13/2014 17:36  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:36  Time Gap check passed.
+12/13/2014 17:36  Record with the same hostname is found and deleted.
+12/13/2014 17:36  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:36  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:37  ------------------------------------------------
+12/13/2014 17:37  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:37  Time Gap check passed.
+12/13/2014 17:41  The Server Started. Begin input check...
+12/13/2014 17:41  InputCheck successed.Start building socket.
+12/13/2014 17:41  Tree is built.
+12/13/2014 17:41  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:43  ------------------------------------------------
+12/13/2014 17:43  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:43  Time Gap check passed.
+12/13/2014 17:43  Record with the same hostname is found and deleted.
+12/13/2014 17:43  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:43  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:43  ------------------------------------------------
+12/13/2014 17:43  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:43  Time Gap check passed.
+12/13/2014 17:46  The Server Started. Begin input check...
+12/13/2014 17:46  InputCheck successed.Start building socket.
+12/13/2014 17:46  Tree is built.
+12/13/2014 17:46  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:46  ------------------------------------------------
+12/13/2014 17:46  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:46  Time Gap check passed.
+12/13/2014 17:46  Record with the same hostname is found and deleted.
+12/13/2014 17:46  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:46  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:46  ------------------------------------------------
+12/13/2014 17:46  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:46  Time Gap check passed.
+12/13/2014 17:48  The Server Started. Begin input check...
+12/13/2014 17:48  InputCheck successed.Start building socket.
+12/13/2014 17:48  Tree is built.
+12/13/2014 17:48  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:48  ------------------------------------------------
+12/13/2014 17:48  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:48  Time Gap check passed.
+12/13/2014 17:48  Record with the same hostname is found and deleted.
+12/13/2014 17:48  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:48  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:48  ------------------------------------------------
+12/13/2014 17:48  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:48  Time Gap check failed. Send fail response to the client side.
+12/13/2014 17:48  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 17:48  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:48  ------------------------------------------------
+12/13/2014 17:48  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:48  Time Gap check passed.
+12/13/2014 17:50  The Server Started. Begin input check...
+12/13/2014 17:50  InputCheck successed.Start building socket.
+12/13/2014 17:50  Tree is built.
+12/13/2014 17:50  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:50  ------------------------------------------------
+12/13/2014 17:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:50  Time Gap check passed.
+12/13/2014 17:50  Record with the same hostname is found and deleted.
+12/13/2014 17:50  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:50  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:59  The Server Started. Begin input check...
+12/13/2014 17:59  InputCheck successed.Start building socket.
+12/13/2014 17:59  Tree is built.
+12/13/2014 17:59  Socket Setting-up successed. Waiting for Client...
+12/13/2014 17:59  ------------------------------------------------
+12/13/2014 17:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:59  Time Gap check passed.
+12/13/2014 17:59  Record with the same hostname is found and deleted.
+12/13/2014 17:59  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 17:59  Client Socket Closed. Waiting for another clinet...
+12/13/2014 17:59  ------------------------------------------------
+12/13/2014 17:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 17:59  Time Gap check passed.
+12/13/2014 18:1  The Server Started. Begin input check...
+12/13/2014 18:1  InputCheck successed.Start building socket.
+12/13/2014 18:1  Tree is built.
+12/13/2014 18:1  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:1  ------------------------------------------------
+12/13/2014 18:1  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:1  Time Gap check passed.
+12/13/2014 18:1  Record with the same hostname is found and deleted.
+12/13/2014 18:1  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 18:1  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:5  The Server Started. Begin input check...
+12/13/2014 18:5  InputCheck successed.Start building socket.
+12/13/2014 18:5  Tree is built.
+12/13/2014 18:5  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:5  The Server Started. Begin input check...
+12/13/2014 18:5  InputCheck successed.Start building socket.
+12/13/2014 18:5  Tree is built.
+12/13/2014 18:5  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:5  ------------------------------------------------
+12/13/2014 18:5  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:5  Time Gap check passed.
+12/13/2014 18:5  Record with the same hostname is found and deleted.
+12/13/2014 18:5  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 18:5  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:5  ------------------------------------------------
+12/13/2014 18:5  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:5  Time Gap check failed. Send fail response to the client side.
+12/13/2014 18:5  Sending system message to the client. The content is: Please wait another 1 seconds before another submission.
+12/13/2014 18:5  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:5  ------------------------------------------------
+12/13/2014 18:5  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:5  Time Gap check passed.
+12/13/2014 18:6  The Server Started. Begin input check...
+12/13/2014 18:6  InputCheck successed.Start building socket.
+12/13/2014 18:6  Tree is built.
+12/13/2014 18:6  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:6  ------------------------------------------------
+12/13/2014 18:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:6  Time Gap check passed.
+12/13/2014 18:6  Record with the same hostname is found and deleted.
+12/13/2014 18:6  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 18:6  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:6  ------------------------------------------------
+12/13/2014 18:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:6  Time Gap check passed.
+12/13/2014 18:6  Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:6  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:6  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:6  ------------------------------------------------
+12/13/2014 18:6  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:6  Time Gap check passed.
+12/13/2014 18:6  Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:6  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:6  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:7  The Server Started. Begin input check...
+12/13/2014 18:7  InputCheck successed.Start building socket.
+12/13/2014 18:7  Tree is built.
+12/13/2014 18:7  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:7  ------------------------------------------------
+12/13/2014 18:7  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:7  Time Gap check passed.
+12/13/2014 18:7  Record with the same hostname is found and deleted.
+12/13/2014 18:7  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 18:7  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:7  ------------------------------------------------
+12/13/2014 18:7  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:7  Time Gap check passed.
+12/13/2014 18:7  Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:7  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:7  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:9  The Server Started. Begin input check...
+12/13/2014 18:9  InputCheck successed.Start building socket.
+12/13/2014 18:9  Tree is built.
+12/13/2014 18:9  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:9  ------------------------------------------------
+12/13/2014 18:9  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:9  Time Gap check passed.
+12/13/2014 18:9  Record with the same hostname is found and deleted.
+12/13/2014 18:9  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 18:9  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:9  ------------------------------------------------
+12/13/2014 18:9  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:9  Time Gap check passed.
+12/13/2014 18:9  Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:9  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 18:9  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:36  The Server Started. Begin input check...
+12/13/2014 18:36  InputCheck successed.Start building socket.
+12/13/2014 18:36  Tree is built.
+12/13/2014 18:36  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:36  ------------------------------------------------
+12/13/2014 18:36  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:36  Time Gap check passed.
+12/13/2014 18:36  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:38  The Server Started. Begin input check...
+12/13/2014 18:38  InputCheck successed.Start building socket.
+12/13/2014 18:38  Tree is built.
+12/13/2014 18:38  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:38  ------------------------------------------------
+12/13/2014 18:38  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:38  Time Gap check passed.
+12/13/2014 18:38  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:38  The Server Started. Begin input check...
+12/13/2014 18:38  InputCheck successed.Start building socket.
+12/13/2014 18:38  Tree is built.
+12/13/2014 18:38  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:38  ------------------------------------------------
+12/13/2014 18:38  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:38  Time Gap check passed.
+12/13/2014 18:38  Client Socket Closed. Waiting for another clinet...
+12/13/2014 18:50  The Server Started. Begin input check...
+12/13/2014 18:50  InputCheck successed.Start building socket.
+12/13/2014 18:50  Tree is built.
+12/13/2014 18:50  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:50  ------------------------------------------------
+12/13/2014 18:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:50  Time Gap check passed.
+12/13/2014 18:51  The Server Started. Begin input check...
+12/13/2014 18:51  InputCheck successed.Start building socket.
+12/13/2014 18:51  Tree is built.
+12/13/2014 18:51  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:51  ------------------------------------------------
+12/13/2014 18:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:51  Time Gap check passed.
+12/13/2014 18:52  The Server Started. Begin input check...
+12/13/2014 18:52  InputCheck successed.Start building socket.
+12/13/2014 18:52  Tree is built.
+12/13/2014 18:52  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:52  ------------------------------------------------
+12/13/2014 18:52  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:52  Time Gap check passed.
+12/13/2014 18:55  The Server Started. Begin input check...
+12/13/2014 18:55  InputCheck successed.Start building socket.
+12/13/2014 18:55  Tree is built.
+12/13/2014 18:55  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:55  ------------------------------------------------
+12/13/2014 18:55  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:55  Time Gap check passed.
+12/13/2014 18:56  The Server Started. Begin input check...
+12/13/2014 18:56  InputCheck successed.Start building socket.
+12/13/2014 18:56  Tree is built.
+12/13/2014 18:56  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:56  ------------------------------------------------
+12/13/2014 18:56  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:56  Time Gap check passed.
+12/13/2014 18:57  The Server Started. Begin input check...
+12/13/2014 18:57  InputCheck successed.Start building socket.
+12/13/2014 18:57  Tree is built.
+12/13/2014 18:57  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:57  ------------------------------------------------
+12/13/2014 18:57  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:57  Time Gap check passed.
+12/13/2014 18:59  The Server Started. Begin input check...
+12/13/2014 18:59  InputCheck successed.Start building socket.
+12/13/2014 18:59  Tree is built.
+12/13/2014 18:59  Socket Setting-up successed. Waiting for Client...
+12/13/2014 18:59  ------------------------------------------------
+12/13/2014 18:59  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 18:59  Time Gap check passed.
+12/13/2014 19:1  The Server Started. Begin input check...
+12/13/2014 19:1  InputCheck successed.Start building socket.
+12/13/2014 19:1  Tree is built.
+12/13/2014 19:1  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:1  ------------------------------------------------
+12/13/2014 19:1  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:1  Time Gap check passed.
+12/13/2014 19:1  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:2  The Server Started. Begin input check...
+12/13/2014 19:2  InputCheck successed.Start building socket.
+12/13/2014 19:2  Tree is built.
+12/13/2014 19:2  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:2  ------------------------------------------------
+12/13/2014 19:2  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:2  Time Gap check passed.
+12/13/2014 19:2  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:2  The Server Started. Begin input check...
+12/13/2014 19:2  InputCheck successed.Start building socket.
+12/13/2014 19:2  Tree is built.
+12/13/2014 19:2  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:2  ------------------------------------------------
+12/13/2014 19:2  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:2  Time Gap check passed.
+12/13/2014 19:2  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:3  The Server Started. Begin input check...
+12/13/2014 19:3  InputCheck successed.Start building socket.
+12/13/2014 19:3  Tree is built.
+12/13/2014 19:3  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:3  ------------------------------------------------
+12/13/2014 19:3  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:3  Time Gap check passed.
+12/13/2014 19:3  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:8  The Server Started. Begin input check...
+12/13/2014 19:8  InputCheck successed.Start building socket.
+12/13/2014 19:8  Tree is built.
+12/13/2014 19:8  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:8  ------------------------------------------------
+12/13/2014 19:8  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:8  Time Gap check passed.
+12/13/2014 19:8  Most requested record is found. Send back to the client.
+12/13/2014 19:8  Sending system message to the client. The content is: www.caoliu.com 15 192.168.1.5
+www.umd.edu 15 128.8.237.77
+
+12/13/2014 19:8  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:12  The Server Started. Begin input check...
+12/13/2014 19:12  InputCheck successed.Start building socket.
+12/13/2014 19:12  Tree is built.
+12/13/2014 19:12  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:12  ------------------------------------------------
+12/13/2014 19:12  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:12  Time Gap check passed.
+12/13/2014 19:12  Most requested record is found. Send back to the client.
+12/13/2014 19:12  Sending system message to the client. The content is: www.google.com 0 64.233.169.99
+www.hupu.com 0 192.168.1.4
+
+12/13/2014 19:12  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:13  The Server Started. Begin input check...
+12/13/2014 19:13  InputCheck successed.Start building socket.
+12/13/2014 19:13  Tree is built.
+12/13/2014 19:13  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:13  ------------------------------------------------
+12/13/2014 19:13  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:13  Time Gap check passed.
+12/13/2014 19:13  Database is empty. No record found.
+12/13/2014 19:13  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 19:13  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:13  ------------------------------------------------
+12/13/2014 19:13  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:13  Time Gap check passed.
+12/13/2014 19:13  Database is empty. No record found.
+12/13/2014 19:13  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 19:13  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:13  ------------------------------------------------
+12/13/2014 19:13  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:13  Time Gap check passed.
+12/13/2014 19:13  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 19:13  Checking the security code...
+12/13/2014 19:13  Security code check passed. Closing the server.
+12/13/2014 19:13  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/13/2014 19:13  Server is shutted Down.
+12/13/2014 19:22  The Server Started. Begin input check...
+12/13/2014 19:22  InputCheck successed.Start building socket.
+12/13/2014 19:22  Tree is built.
+12/13/2014 19:22  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:23  The Server Started. Begin input check...
+12/13/2014 19:23  InputCheck successed.Start building socket.
+12/13/2014 19:23  Tree is built.
+12/13/2014 19:23  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:23  ------------------------------------------------
+12/13/2014 19:23  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:23  Time Gap check passed.
+12/13/2014 19:23  Record with the same hostname is found and deleted.
+12/13/2014 19:23  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:23  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:25  The Server Started. Begin input check...
+12/13/2014 19:25  InputCheck successed.Start building socket.
+12/13/2014 19:25  Tree is built.
+12/13/2014 19:25  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:25  ------------------------------------------------
+12/13/2014 19:25  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:25  Time Gap check passed.
+12/13/2014 19:25  Record with the same hostname is found and deleted.
+12/13/2014 19:25  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:25  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:25  ------------------------------------------------
+12/13/2014 19:25  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:25  Time Gap check passed.
+12/13/2014 19:25  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 19:25  Checking the security code...
+12/13/2014 19:25  Security code check passed. Closing the server.
+12/13/2014 19:25  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/13/2014 19:25  Entrys were written back to the database. Server shutted down. 
+12/13/2014 19:25  The Server Started. Begin input check...
+12/13/2014 19:25  InputCheck successed.Start building socket.
+12/13/2014 19:25  Tree is built.
+12/13/2014 19:25  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:26  ------------------------------------------------
+12/13/2014 19:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:26  Time Gap check passed.
+12/13/2014 19:26  Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:26  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:26  ------------------------------------------------
+12/13/2014 19:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:26  Time Gap check passed.
+12/13/2014 19:26  Record with the same hostname is found and deleted.
+12/13/2014 19:26  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:26  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:26  ------------------------------------------------
+12/13/2014 19:26  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:26  Time Gap check passed.
+12/13/2014 19:26  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 19:26  Checking the security code...
+12/13/2014 19:26  Security code check passed. Closing the server.
+12/13/2014 19:26  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/13/2014 19:26  Entrys were written back to the database. Server shutted down. 
+12/13/2014 19:26  The Server Started. Begin input check...
+12/13/2014 19:26  InputCheck successed.Start building socket.
+12/13/2014 19:26  Tree is built.
+12/13/2014 19:26  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:27  ------------------------------------------------
+12/13/2014 19:27  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:27  Time Gap check passed.
+12/13/2014 19:27  Record with the same hostname is found and deleted.
+12/13/2014 19:27  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:27  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:27  ------------------------------------------------
+12/13/2014 19:27  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:27  Time Gap check passed.
+12/13/2014 19:27  Record with the same hostname is found and deleted.
+12/13/2014 19:27  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:27  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:29  The Server Started. Begin input check...
+12/13/2014 19:29  InputCheck successed.Start building socket.
+12/13/2014 19:29  Tree is built.
+12/13/2014 19:29  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:29  ------------------------------------------------
+12/13/2014 19:29  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:29  Time Gap check passed.
+12/13/2014 19:29  Record with the same hostname is found and deleted.
+12/13/2014 19:29  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:30  The Server Started. Begin input check...
+12/13/2014 19:30  InputCheck successed.Start building socket.
+12/13/2014 19:30  Tree is built.
+12/13/2014 19:30  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:30  ------------------------------------------------
+12/13/2014 19:30  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:30  Time Gap check passed.
+12/13/2014 19:30  Record with the same hostname is found and deleted.
+12/13/2014 19:30  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:30  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:30  ------------------------------------------------
+12/13/2014 19:30  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:30  Time Gap check passed.
+12/13/2014 19:30  Record with the same hostname is found and deleted.
+12/13/2014 19:30  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:30  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname is found and deleted.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname is found and deleted.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname is found and deleted.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname is found and deleted.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname is found and deleted.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:31  Sending system message to the client. The content is: Record with the same hostname does not exist. Please try another one.
+12/13/2014 19:31  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:31  ------------------------------------------------
+12/13/2014 19:31  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:31  Time Gap check passed.
+12/13/2014 19:31  Clinet is attempting shutting down the server. (Request = 6)
+12/13/2014 19:31  Checking the security code...
+12/13/2014 19:31  Security code check passed. Closing the server.
+12/13/2014 19:31  Sending system message to the client. The content is: Security code check passed. Server is closed
+12/13/2014 19:31  Entrys were written back to the database. Server shutted down. 
+12/13/2014 19:46  The Server Started. Begin input check...
+12/13/2014 19:46  InputCheck successed.Start building socket.
+12/13/2014 19:46  Tree is built.
+12/13/2014 19:46  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:47  ------------------------------------------------
+12/13/2014 19:47  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:48  The Server Started. Begin input check...
+12/13/2014 19:48  InputCheck successed.Start building socket.
+12/13/2014 19:48  Tree is built.
+12/13/2014 19:48  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:48  ------------------------------------------------
+12/13/2014 19:48  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:49  The Server Started. Begin input check...
+12/13/2014 19:49  InputCheck successed.Start building socket.
+12/13/2014 19:49  Tree is built.
+12/13/2014 19:49  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:49  ------------------------------------------------
+12/13/2014 19:49  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:49  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:49  Sending system message to the client. The content is: Please wait another -1418518139 seconds before another submission.
+12/13/2014 19:49  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:49  ------------------------------------------------
+12/13/2014 19:49  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:49  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:49  Sending system message to the client. The content is: Please wait another -1418518144 seconds before another submission.
+12/13/2014 19:49  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:49  The Server Started. Begin input check...
+12/13/2014 19:49  InputCheck successed.Start building socket.
+12/13/2014 19:49  Tree is built.
+12/13/2014 19:49  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:50  ------------------------------------------------
+12/13/2014 19:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:50  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:50  Sending system message to the client. The content is: Please wait another -1418518191 seconds before another submission.
+12/13/2014 19:50  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:50  ------------------------------------------------
+12/13/2014 19:50  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:50  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:50  Sending system message to the client. The content is: Please wait another -1418518205 seconds before another submission.
+12/13/2014 19:50  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:51  The Server Started. Begin input check...
+12/13/2014 19:51  InputCheck successed.Start building socket.
+12/13/2014 19:51  Tree is built.
+12/13/2014 19:51  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:51  ------------------------------------------------
+12/13/2014 19:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:51  Time Gap check passed.
+12/13/2014 19:51  Database is empty. No record found.
+12/13/2014 19:51  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 19:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:51  ------------------------------------------------
+12/13/2014 19:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:51  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:51  Sending system message to the client. The content is: Please wait another 6 seconds before another submission.
+12/13/2014 19:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:51  ------------------------------------------------
+12/13/2014 19:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:51  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:51  Sending system message to the client. The content is: Please wait another -5 seconds before another submission.
+12/13/2014 19:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:51  ------------------------------------------------
+12/13/2014 19:51  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:51  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:51  Sending system message to the client. The content is: Please wait another -14 seconds before another submission.
+12/13/2014 19:51  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:52  The Server Started. Begin input check...
+12/13/2014 19:52  InputCheck successed.Start building socket.
+12/13/2014 19:52  Tree is built.
+12/13/2014 19:52  Socket Setting-up successed. Waiting for Client...
+12/13/2014 19:52  ------------------------------------------------
+12/13/2014 19:52  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:52  Time Gap check passed.
+12/13/2014 19:52  Database is empty. No record found.
+12/13/2014 19:52  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 19:52  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:52  ------------------------------------------------
+12/13/2014 19:52  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:52  Time Gap check failed. Send fail response to the client side.
+12/13/2014 19:52  Sending system message to the client. The content is: Please wait another 5 seconds before another submission.
+12/13/2014 19:52  Client Socket Closed. Waiting for another clinet...
+12/13/2014 19:52  ------------------------------------------------
+12/13/2014 19:52  Cline: 10.109.37.185 attampts to connect server.
+12/13/2014 19:52  Time Gap check passed.
+12/13/2014 19:52  Database is empty. No record found.
+12/13/2014 19:52  Sending system message to the client. The content is: Error: Database is empty. No record returned.
+12/13/2014 19:52  Client Socket Closed. Waiting for another clinet...

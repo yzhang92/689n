@@ -88,13 +88,13 @@
     <ClCompile Include="MainServer.c" />
     <ClCompile Include="NodeToString.c" />
     <ClCompile Include="SendBackServerRespond.c" />
+    <ClCompile Include="ShutDown.c" />
     <ClCompile Include="SplitRecvMessage.c" />
     <ClCompile Include="StringAppend.c" />
     <ClCompile Include="StrToArray.c" />
     <ClCompile Include="StrToInt.c" />
     <ClCompile Include="Switching.c" />
     <ClCompile Include="Tree.c" />
-    <ClCompile Include="Tree2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

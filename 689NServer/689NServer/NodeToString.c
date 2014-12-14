@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include <string.h>
 
 typedef struct treeNode
 {
-	int ascii;
 	char *hostname;
 	int *reqTimes;
 	char **ipaddress;
@@ -20,7 +20,6 @@ char *NodeToString(treeNode *node) {
 	char requestNum[5];
 	sprintf(requestNum, "%d", node->reqTimes);
 	char *ips = ArrToStr(node->ipaddress);
-
 	int len = strlen(hostname) + strlen(requestNum) + strlen(ips) + 4;
 	char *text = malloc(len);
 	text[len] = '\0';
@@ -29,7 +28,7 @@ char *NodeToString(treeNode *node) {
 	strcat(text, requestNum);
 	strcat(text, " ");
 	strcat(text, ips);
-	text[len - 1] = '\n';
-	return len;
+	strcat(text, "\n");
+	return text;
 
 }

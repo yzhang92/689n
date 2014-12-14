@@ -7,6 +7,16 @@
 #define MAXPENDING 5    /* Maximum outstanding connection requests */
 #define RCVBUFFERSIZE 256
 
+typedef struct treeNode
+{
+	char *hostname;
+	int *reqTimes;
+	char **ipaddress;
+	struct treeNode *left;
+	struct treeNode *right;
+
+}treeNode;
+
 void InputLoggerFile(char *message);
 int StrToInt(char *str);
 int ErrorCheckForInput(int port, char *filename, int timeGap);
@@ -15,7 +25,7 @@ int ReqErrorCheck(int clntSocket);
 char *GetInforfromClnt(int clntSocket);
 void HandleTCPClient(int clntSocket);
 char **SplitRecvMessage(char *recvMessage);
-int Switching(char **, char *, int);
+int Switching(char **, char *, int, treeNode *);
 void CloseClnSock(int);
 
 
@@ -34,17 +44,17 @@ void main(int argc, char *argv[]) {
 	struct sockaddr_in ServAddr;
 	struct sockaddr_in ClntAddr;
 	int clntLen;
-	char *clntIp;                      /* Cline Ip Addr*/
 	char *message;
 	char *recInfor;
 	char **recvParameter; 
-
-
+	char *originIp = "";
+	char *curIp;
 	time_t lastTime = 0;
 	time_t curTime;
 
 	char Buffer[RCVBUFFERSIZE];        /* Buffer for echo string */
 	int recvMsgSize;                    /* Size of received message */
+	treeNode *root = NULL;
 
 	InputLoggerFile("The Server Started. Begin input check...");
 
@@ -71,16 +81,22 @@ void main(int argc, char *argv[]) {
 	}
 
 	InputLoggerFile("InputCheck successed.Start building socket.");
+//--------------------------Building the tree--------------------------------------
+	InputLoggerFile("Tree is built.");
+	root = BuildTree(dataFileName);
+	PrintInOrder(root);
 //--------------------------set up socket-------------------------------------------
 	if (WSAStartup(MAKEWORD(2, 0), &wsaData) != 0) /* Load Winsock 2.0 DLL */
 	{
 		InputLoggerFile("Socket Setting Up Failed.(WSAStartup() failed)\n\n\n");
+		ShutDown(root, dataFileName);
 		exit(1);
 	}
 
 	/* Create socket for incoming connections */
 	if ((servSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0) {
 		InputLoggerFile("Socket Setting Up Failed.(WSAStartup() failed)\n\n\n");
+		ShutDown(root, dataFileName);
 		exit(1);
 	}
 
@@ -93,12 +109,14 @@ void main(int argc, char *argv[]) {
 	/* Bind to the local address */
 	if (bind(servSock, (struct sockaddr *) &ServAddr, sizeof(ServAddr)) < 0) {
 		InputLoggerFile("Socket Setting Up Failed.(bind() failed)\n\n\n");
+		ShutDown(root, dataFileName);
 		exit(1);
 	}
 
 	/* Mark the socket so it will listen for incoming connections */
 	if (listen(servSock, MAXPENDING) < 0) {
 		InputLoggerFile("Socket Setting-up failed. (listen() failed)\n\n\n");
+		ShutDown(root, dataFileName);
 		exit(1);
 	}
 	InputLoggerFile("Socket Setting-up successed. Waiting for Client...");
@@ -127,7 +145,8 @@ void main(int argc, char *argv[]) {
 
 //--------------------Time Gap Check--------------------------------------------------------
 		curTime = time(NULL);
-		if (lastTime == 0 || (curTime - lastTime) >= timeGap) {
+		curIp = inet_ntoa(ClntAddr.sin_addr);
+		if (((lastTime == 0 || (curTime - lastTime) >= timeGap)) || ((strcmp(curIp, originIp) != 0) || (originIp == 0))) {
 			InputLoggerFile("Time Gap check passed.");
 
 //----------------------Decompose Infor-----------------------------------------------------
@@ -143,13 +162,10 @@ void main(int argc, char *argv[]) {
 			strcpy(recInfor, Buffer);
 			recvParameter = SplitRecvMessage(recInfor);
 //-------------------------Switching-----------------------------------------------
-			if (Switching(recvParameter, dataFileName, clntSock) == 0) {
-				InputLoggerFile("Switching failed.");
-				CloseClnSock(clntSock);
-				continue;
-			}
+			root = Switching(recvParameter, dataFileName, clntSock, root);
 			CloseClnSock(clntSock);
 			lastTime = curTime;
+			originIp = curIp;
 		}
 		else {
 			int diff = timeGap - (curTime - lastTime);

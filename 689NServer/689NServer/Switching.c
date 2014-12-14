@@ -6,7 +6,6 @@
 
 typedef struct treeNode
 {
-	int ascii;
 	char *hostname;
 	int *reqTimes;
 	char **ipaddress;
@@ -20,94 +19,130 @@ int StrToInt(char *);
 int InputLoggerFile(char *);
 void SendBackServerRespond(int, char const *);
 void CloseClnSock(int clnsock);
-treeNode *BuildTree(char *);
 int GetAscii(char *);
-treeNode *Find(treeNode *, int);
 char *ArrToStr(char **);
 char *GetIpByName(char *);
 
 
-int Switching(char ** para_arr, char *dataFileName, int clnclock) {
+treeNode *Switching(char ** para_arr, char *dataFileName, int clnclock, treeNode *root) {
 
 	int req_num = StrToInt(para_arr[0]);
 	int ascii;
-	treeNode *root =  NULL;
 	treeNode *node = NULL;
 	char *sendBackInfo;
-	root = BuildTree(dataFileName);
 	char **ip_arr;
 	char *ip;
 	FILE *file;
-	
+	int numbOfArr;
 
 	switch (req_num) {
 
 	case 1:
-		SendBackServerRespond(clnclock,"Test: get case 1");
-		ascii = GetAscii(para_arr[0]);
-		node = Find(root, ascii);
+		node = Find(root, para_arr[1]);
 		if (node == NULL) {
 			InputLoggerFile("Ip address not found.Try to find it.");
-			node = malloc(sizeof(treeNode));
-			node->ascii = GetAscii(para_arr[0]);
-			node->hostname = para_arr[0];
-			node->reqTimes = 0;
-			ip_arr = malloc(sizeof(char *));
-			if (ip = GetIpByName(para_arr[0]) == NULL){
+			if ((ip = GetIpByName(para_arr[1])) == NULL){
 				InputLoggerFile("Ip address not found by using gethostbyname().");
-				SendBackServerRespond("Ip address not found.", clnclock);
-				CloseClnSock(clnclock);
-				free(node);
+				SendBackServerRespond(clnclock, "Ip address not found.");
 			}
 			else {
 				InputLoggerFile("Ip address is found.");
-				SendBackServerRespond(ip, clnclock);
-				CloseClnSock(clnclock);
-				InputLoggerFile("Adding new record into database...");
+				node = malloc(sizeof(treeNode));
+				node->hostname = para_arr[1];
+				node->reqTimes = 1;
+				ip_arr = malloc(2 *sizeof(char *));
 				ip_arr[0] = ip;
+				ip_arr[1] = NULL;
 				node->ipaddress = ip_arr;
 				node->left = NULL;
 				node->right = NULL;
-				root = insert1(root, node);
-				fopen(dataFileName, "w");
-
+				SendBackServerRespond(clnclock, ip);
+				InputLoggerFile("Adding new record into database...");
+				root = Insert1(root, node);
+				InputLoggerFile("Display the new try");
 			}
-			
-
-
 		}
 		else {
 			InputLoggerFile("Ip address found.");
+			node->reqTimes += 1;
 			sendBackInfo = ArrToStr(node->ipaddress);
-			SendBackServerRespond(sendBackInfo, clnclock);
-			CloseClnSock(clnclock);
+			SendBackServerRespond(clnclock, sendBackInfo);
 		}
-		/* send back result */
-		break;
-	case 2:
-		SendBackServerRespond(clnclock,"Test: get case 2");
+		PrintInOrder(root);
 
-		/* if (AlreadyExist(para_arr, tree) == 1) return 0; */
-		/* insert entry*/
+		break;
+
+	case 2:
+		if (node = Find(root, para_arr[1]) != NULL) {
+			InputLoggerFile("Record with the same hostname exists. Please try another one.");
+			SendBackServerRespond(clnclock, "Record with the same hostname exists. Please try another one.");
+		}
+		else {
+			InputLoggerFile("Record with the same hostname does not exist. Adding to the database.");
+			node = malloc(sizeof(treeNode));
+			node->hostname = para_arr[1];
+			node->reqTimes = 1;
+			numbOfArr = -1;
+			while (para_arr[++numbOfArr] != NULL);
+			int count = numbOfArr + 1 - 2;
+			ip_arr = malloc(count * sizeof(char *));
+			ip_arr[count - 1] = NULL;
+			for (int i = 0; i < count - 1; i++) {
+				ip_arr[i] = para_arr[i + 2];
+			}
+			node->ipaddress = ip_arr;
+			node->left = NULL;
+			node->right = NULL;
+			root = Insert1(root, node);
+			PrintInOrder(root);
+			SendBackServerRespond(clnclock , "Adding record to database successed.");
+			InputLoggerFile("Adding record to database successed.");
+		}
+		PrintInOrder(root);
+
 		break;
 
 	case 3:
-		SendBackServerRespond(clnclock,"Test: get case 3");
+		if ((node = Find(root, para_arr[1])) == NULL) {
+			InputLoggerFile("Record with the same hostname does not exist. Please try another one.");
+			SendBackServerRespond(clnclock, "Record with the same hostname does not exist. Please try another one.");
+		}
+		else {
+			root = Delete(root, para_arr[1]);
+			InputLoggerFile("Record with the same hostname is found and deleted.");
+			SendBackServerRespond(clnclock, "Record with the same hostname is found and deleted.");
+		}
+		PrintInOrder(root);
 
-		/* if (AlreadyExist(para_arr, tree) == 0) return 0 */
-		/* deleting entry */
 		break;
 
 	case 4: 
-		SendBackServerRespond(clnclock, "Test: get case 4");
-
-		/* return most requested record */
+		PrintInOrder(root);
+		int max = FindMax(root);
+		if (max == -1) {
+			InputLoggerFile("Database is empty. No record found.");
+			SendBackServerRespond(clnclock, "Error: Database is empty. No record returned.");
+		}
+		else{
+			sendBackInfo = FindReq(root, max);
+			InputLoggerFile("Most requested record is found. Send back to the client.");
+			SendBackServerRespond(clnclock, sendBackInfo);
+		}
+		
 		break;
 
 	case 5:
-		SendBackServerRespond(clnclock, "Test: get case 5");
-
-		/* return least requested record */
+		PrintInOrder(root);
+		int min = FindMin(root);
+		if (min == 999) {
+			InputLoggerFile("Database is empty. No record found.");
+			SendBackServerRespond(clnclock, "Error: Database is empty. No record returned.");
+		}
+		else{
+			sendBackInfo = FindReq(root, min);
+			InputLoggerFile("Most requested record is found. Send back to the client.");
+			SendBackServerRespond(clnclock, sendBackInfo);
+		}
 		break;
 
 	case 6:
@@ -122,19 +157,12 @@ int Switching(char ** para_arr, char *dataFileName, int clnclock) {
 			InputLoggerFile("Security code check passed. Closing the server.");
 			SendBackServerRespond(clnclock, "Security code check passed. Server is closed");
 			closesocket(clnclock);
-			InputLoggerFile("Server is shutted Down.");
+			ShutDown(root, dataFileName);
 			exit(1);
 		}
-
-		/* if (CodeSame() == 0) return 0;*/
-		/* terminate server ;*/
-		break;
-
-	
+		break;	
 	default:
-		return 0;
+		break;
 	}
-
-	/* update the tree and put data into database */
-	return 1;
+	return root;
 }

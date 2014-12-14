@@ -18,7 +18,8 @@ char **SplitRecvMessage(char *recvMessage) {
 	}
 	count++;
 	/* create string arrry to store them */
-	str_arr = (char **)malloc(count * sizeof(char *));
+	str_arr = (char **)malloc((count + 1) * sizeof(char *));
+	str_arr[count] = NULL;
 
 	/* calculte the length of each string and assign them to the string arrary*/
 	int char_count;

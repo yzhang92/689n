@@ -48,9 +48,6 @@
     <ClCompile Include="Tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tree2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BuildTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -67,6 +64,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NodeToString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShutDown.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,7 +18,8 @@ char **StrToArray(char * str) {
 	}
 	count++;
 	/* create string arrry to store them */
-	str_arr = (char **)malloc(count * sizeof(char *));
+	str_arr = (char **)malloc((count + 1) * sizeof(char *));
+	str_arr[count] = NULL;
 
 	int char_count = 0;
 	i = 0;

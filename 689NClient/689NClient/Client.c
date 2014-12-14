@@ -111,7 +111,6 @@ void main(int argc, char *argv[])
 		printf("Error: Not enough input.");
 		exit(1);
 	}
-	printf("%s\n", command);
 	
 //-----------------------------initialization-----------------------------------------------
 	if (WSAStartup(MAKEWORD(2, 0), &wsaData) != 0) /* Load Winsock 2.0 DLL */
@@ -147,7 +146,6 @@ void main(int argc, char *argv[])
 	}
 
 	/* Send the string, including the null terminator, to the server */
-	printf("%d\n", lengthOfCom);
 	if (send(sock, command, lengthOfCom, 0) != lengthOfCom) {
 		printf("Error: send() sent a different number of bytes than expected");
 		exit(1);
